@@ -123,7 +123,7 @@
                 {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   {{ form | payment_terms }}
-<img src="https://cdn.shopify.com/s/files/1/0836/8390/1751/files/trust-badge-1.jpg?v=1695986113" alt="security">
+                    <img src="https://cdn.shopify.com/s/files/1/0836/8390/1751/files/trust-badge-1.jpg?v=1695986113" alt="security">
                 {%- endform -%}
               </div>
             {%- when 'inventory' -%}
