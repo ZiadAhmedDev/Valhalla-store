@@ -117,6 +117,63 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "sections": {
+      "our-services": {
+        "type": "our-services",
+        "blocks": {
+          "1598098392907": {
+            "type": "our_services",
+            "settings": {
+              "service_icon": "feather-truck",
+              "service_title": "Free shipping",
+              "service_url": ""
+            }
+          },
+          "1598098476898": {
+            "type": "our_services",
+            "settings": {
+              "service_icon": "feather-rotate-ccw",
+              "service_title": "30 Days return",
+              "service_url": ""
+            }
+          },
+          "1598098814123": {
+            "type": "our_services",
+            "settings": {
+              "service_icon": "feather-gift",
+              "service_title": "Gift voucher",
+              "service_url": ""
+            }
+          },
+          "221dcf68-0608-4c60-8d27-37109d4255b1": {
+            "type": "our_services",
+            "settings": {
+              "service_icon": "feather-headphones",
+              "service_title": "27*7 Live support",
+              "service_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "1598098392907",
+          "1598098476898",
+          "1598098814123",
+          "221dcf68-0608-4c60-8d27-37109d4255b1"
+        ],
+        "settings": {
+          "section_padding_top": 100,
+          "section_padding_bottom": 100,
+          "section_padding_top_lg": 80,
+          "section_padding_bottom_lg": 80,
+          "section_padding_top_xs": 60,
+          "section_padding_bottom_xs": 60,
+          "section_bgcolor_enable": true,
+          "section_bgcolor": "#fbf7f7",
+          "border": 1,
+          "border_color": "#eeeeee",
+          "border_enable": false,
+          "border_color_opacity": 1
+        }
+      },
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
