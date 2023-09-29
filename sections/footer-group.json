@@ -40,7 +40,7 @@
       ],
       "custom_css": [
         ".footer-block:nth-child(1) {padding-left: 4rem;}",
-        "img {object-fit: contain; height: 100%;}",
+        ".footer-block__image-wrapper img {display:none; margin-top: auto; display: block; object-fit: contain; height: fit-content;}",
         ".footer-block:nth-child(2) {text-align: center; margin-right: 70px; line-height: 1.8;}",
         ".footer__list-social {display: flex; align-content: center; justify-content: center;}",
         ".footer__list-social p {font-size: 20px; margin-right: 10px;}",
