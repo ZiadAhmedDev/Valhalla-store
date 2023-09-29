@@ -1,1 +1,93 @@
-{"sections":{"main":{"type":"main-page","custom_css":["h1{margin: auto; display:block; width:fit-content;}"],"settings":{"padding_top":28,"padding_bottom":28}},"84997030-9bd4-4c32-8a4e-20187ee8f64b":{"type":"image-with-text","blocks":{"template--21295201681719__84997030-9bd4-4c32-8a4e-20187ee8f64b-heading-1":{"type":"heading","settings":{"heading":"<strong>Our Community<\/strong>","heading_size":"h0"}},"template--21295201681719__84997030-9bd4-4c32-8a4e-20187ee8f64b-text-1":{"type":"text","settings":{"text":"<p>Welcome to our community! Discover the heart and soul behind our brand. Explore the essence and passion that drives our brand. Uncover the secrets behind our brand's success. Embark on a journey to explore the inner workings of our brand, discovering the secrets of its success and the driving forces behind its growth.<\/p>","text_style":"body"}}},"block_order":["template--21295201681719__84997030-9bd4-4c32-8a4e-20187ee8f64b-heading-1","template--21295201681719__84997030-9bd4-4c32-8a4e-20187ee8f64b-text-1"],"settings":{"image":"shopify:\/\/shop_images\/priscilla-du-preez-XkKCui44iM0-unsplash.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"2dfb4ab8-cc43-4989-ac47-d0a1341fd1ae":{"type":"image-with-text","blocks":{"ac788573-9d90-47a9-bc4b-4bcf306e0229":{"type":"heading","settings":{"heading":"<strong>Our Goals<\/strong>","heading_size":"h0"}},"63db4613-26f9-4d50-81e0-bba8498373d6":{"type":"text","settings":{"text":"<p>Step into a World of Endless Possibilities with Our Trend-Setting Apparel! Embark on a journey of infinite possibilities with our cutting-edge apparel! Experience a world of untapped potential with our cutting-edge apparel.<\/p>","text_style":"body"}}},"block_order":["ac788573-9d90-47a9-bc4b-4bcf306e0229","63db4613-26f9-4d50-81e0-bba8498373d6"],"settings":{"image":"shopify:\/\/shop_images\/engin-akyurt-bPiuY2ZSlvU-unsplash.jpg","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}}},"order":["main","84997030-9bd4-4c32-8a4e-20187ee8f64b","2dfb4ab8-cc43-4989-ac47-d0a1341fd1ae"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1{margin: auto; display:block; width:fit-content;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "84997030-9bd4-4c32-8a4e-20187ee8f64b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21295201681719__84997030-9bd4-4c32-8a4e-20187ee8f64b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Our Community<\/strong>",
+            "heading_size": "h0"
+          }
+        },
+        "template--21295201681719__84997030-9bd4-4c32-8a4e-20187ee8f64b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to our community! Discover the heart and soul behind our brand. Explore the essence and passion that drives our brand. Uncover the secrets behind our brand's success. Embark on a journey to explore the inner workings of our brand, discovering the secrets of its success and the driving forces behind its growth.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--21295201681719__84997030-9bd4-4c32-8a4e-20187ee8f64b-heading-1",
+        "template--21295201681719__84997030-9bd4-4c32-8a4e-20187ee8f64b-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/priscilla-du-preez-XkKCui44iM0-unsplash.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2dfb4ab8-cc43-4989-ac47-d0a1341fd1ae": {
+      "type": "image-with-text",
+      "blocks": {
+        "ac788573-9d90-47a9-bc4b-4bcf306e0229": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Our Goals<\/strong>",
+            "heading_size": "h0"
+          }
+        },
+        "63db4613-26f9-4d50-81e0-bba8498373d6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Step into a World of Endless Possibilities with Our Trend-Setting Apparel! Embark on a journey of infinite possibilities with our cutting-edge apparel! Experience a world of untapped potential with our cutting-edge apparel.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "ac788573-9d90-47a9-bc4b-4bcf306e0229",
+        "63db4613-26f9-4d50-81e0-bba8498373d6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/engin-akyurt-bPiuY2ZSlvU-unsplash.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "84997030-9bd4-4c32-8a4e-20187ee8f64b",
+    "2dfb4ab8-cc43-4989-ac47-d0a1341fd1ae"
+  ]
+}

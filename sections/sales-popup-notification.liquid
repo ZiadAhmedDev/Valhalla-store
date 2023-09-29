@@ -1,0 +1,143 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<script>
+  // Load Toastify script dynamically
+  var toastifyScript = document.createElement('script');
+  toastifyScript.type = 'text/javascript';
+  toastifyScript.src = 'https://cdn.jsdelivr.net/npm/toastify-js';
+  toastifyScript.defer = true; // Defer script loading
+  document.head.appendChild(toastifyScript);
+</script>
+{% if section.settings.showPopup %}
+  <style>
+    div.toastify {
+      display: flex !important;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      border-radius: 6px !important;
+      width: fit-content !important;
+    }
+
+    img.toastify-avatar {
+      width: 7.5rem !important;
+      height: 7.5rem !important;
+      object-fit: contain !important;
+    }
+
+    .toast-close {
+      color: black !important;
+    }
+  </style>
+
+  {% capture varNameArray -%}
+{%- for block in section.blocks -%}
+  {%- assign product = block.settings.selectedProduct -%}
+  {%- assign varName = product.handle | truncate: 8, "" | replace: "-", "_" -%}
+  {{- '' | append: varName | append: ',' -}}
+{%- endfor -%}
+{%- endcapture -%}
+
+  <script>
+    var names = '{{ varNameArray | strip | strip_newlines }}';
+    let arrayNames = names.split(',');
+    arrayNames.pop();
+  </script>
+
+  <script>
+    let toastifyInstances = {};
+    let isPopupShowing = false;
+
+    // Check if Toastify is defined before using it
+    function checkToastifyLoaded() {
+      if (typeof Toastify !== 'undefined') {
+        {% for block in section.blocks %}
+          {% assign product = block.settings.selectedProduct %}
+          {% assign varName = product.handle | truncate: 8, "" | replace: "-", "_" %}
+
+            // Construct the notification text with the title and price on separate lines
+            var notificationText = "Someone bought {{ product.title | escape | truncate: 25, "" }}<br>{{ product.price | money }}";
+
+            toastifyInstances["{{ varName }}"] = Toastify({
+              avatar: "{{ product.featured_image | image_url: width:600 }}",
+              text: notificationText,
+              destination: "{{ product.url }}",
+              duration: 3000,
+              newWindow: false,
+              close: true,
+              style: {
+                color: "black",
+                background: "white", // Use the background property
+                width: "400",
+              },
+              gravity: "bottom",
+              position: "left",
+              stopOnFocus: true,
+              escapeMarkup: false,
+            });
+
+        {% endfor %}
+
+        // Start the popup notification function after Toastify is loaded
+        showProductScale();
+      } else {
+        // If Toastify is not loaded, retry after a short delay
+        setTimeout(checkToastifyLoaded, 100);
+      }
+    }
+
+    checkToastifyLoaded();
+
+    function showProductScale() {
+      if (!isPopupShowing) {
+        let randomIndex = Math.floor(Math.random() * arrayNames.length);
+        let instanceName = arrayNames[randomIndex];
+
+        if (toastifyInstances[instanceName]) {
+          isPopupShowing = true;
+
+          // Show the notification
+          toastifyInstances[instanceName].showToast();
+
+          // Set a timeout to reset the isPopupShowing flag
+          setTimeout(function() {
+            isPopupShowing = false;
+          }, toastifyInstances[instanceName].options.duration);
+        }
+      }
+
+      let timer = Math.random() * {{ section.settings.maximumPopNotification | times: 1000 }};
+      setTimeout(showProductScale, timer);
+    }
+  </script>
+{% endif %}
+{% schema %}
+{
+  "name": "sales popup notification",
+  "settings": [
+    {
+      "type": "number",
+      "id": "maximumPopNotification",
+      "default": 10,
+      "label": "Maximum Pop Notification"
+    },
+    {
+      "type": "checkbox",
+      "id": "showPopup",
+      "default": true,
+      "label": "Show Sales Popup"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Product",
+      "type": "sales-product-popup",
+      "settings": [
+        {
+          "id": "selectedProduct",
+          "type": "product",
+          "label": "Product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

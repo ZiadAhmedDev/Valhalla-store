@@ -1,0 +1,68 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<style>
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: none;
+  }
+
+  .scroll-to-top-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    opacity: 0.5;
+  }
+
+  .scroll-to-top-button:hover {
+    background-color: #555;
+    opacity: 1;
+  }
+</style>
+
+<div id="scrollToTop" class="scroll-to-top">
+  <a href="#" class="scroll-to-top-button" title="Scroll to Top"> <i class="fas fa-arrow-up"></i></a>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const scrollToTopButton = document.getElementById('scrollToTop');
+
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 100) {
+        scrollToTopButton.style.display = 'block';
+      } else {
+        scrollToTopButton.style.display = 'none';
+      }
+    });
+
+    scrollToTopButton.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const duration = 400; // Adjust the duration as needed
+      const start = window.pageYOffset;
+      const startTime = performance.now();
+
+      function step(currentTime) {
+        const elapsedTime = currentTime - startTime;
+        const scrollProgress = Math.min(elapsedTime / duration, 1);
+        window.scrollTo(0, start + (0 - start) * scrollProgress);
+
+        if (scrollProgress < 1) {
+          requestAnimationFrame(step);
+        }
+      }
+
+      requestAnimationFrame(step);
+    });
+  });
+</script>

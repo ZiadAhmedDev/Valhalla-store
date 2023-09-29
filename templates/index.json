@@ -1,1 +1,403 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"Browse our latest products","heading_size":"h0"}},"button":{"type":"buttons","settings":{"button_label_1":"Shop all","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading","button"],"settings":{"image":"shopify:\/\/shop_images\/luke-porter-rg1Z9NtEa80-unsplash.jpg","image_overlay_opacity":40,"image_height":"large","desktop_content_position":"bottom-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"inverse","image_behavior":"zoom-in","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"fa9f171b-5d84-42de-bfff-eae4a5e00645":{"type":"collection-list","blocks":{"template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-1":{"type":"featured_collection","settings":{"collection":"women"}},"template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-2":{"type":"featured_collection","settings":{"collection":"men-clothes"}},"template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-3":{"type":"featured_collection","settings":{"collection":"casual"}}},"block_order":["template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-1","template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-2","template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-3"],"settings":{"title":"","heading_size":"h1","image_ratio":"square","columns_desktop":3,"color_scheme":"accent-1","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":32,"padding_bottom":28}},"6d14b2c1-4790-4ecf-9e9f-42009005e331":{"type":"multirow","blocks":{"template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-1":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/scotch-and-soda-mens-long-sleeve-jacket_2.png","caption":"","heading":"Casual","text":"<p>Discover the World of Casual Clothes: A Comprehensive Guide Explore the vast realm of casual fashion with our comprehensive guide.<\/p>","button_label":"Shop Now","button_link":"shopify:\/\/collections\/casual"}},"template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-2":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/only-and-sons-mens-long-sleeve-coat_1.png","caption":"","heading":"Sweater","text":"<p>Elevate Your Style with High-Quality Sweaters Experience elevated style with our collection of high-quality sweaters.<\/p>","button_label":"Shop Now","button_link":"shopify:\/\/collections\/sweaters"}},"template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-3":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/jack-wolfskin-mens-gecko-fleece-pullover_3.png","caption":"","heading":"T-shirts","text":"<p>Discover the Perfect T-Shirt for Every Occasion Explore our wide range of expertly curated T-Shirts for all occasions.<\/p>","button_label":"Shop Now","button_link":"shopify:\/\/collections\/t-shirts"}}},"block_order":["template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-1","template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-2","template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-3"],"disabled":true,"settings":{"image_height":"small","desktop_image_width":"medium","heading_size":"h1","text_style":"body","button_style":"primary","desktop_content_position":"middle","desktop_content_alignment":"left","image_layout":"alternate-left","section_color_scheme":"inverse","row_color_scheme":"accent-1","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"4b04927e-a945-42f5-9a66-0229ccee83b4":{"type":"multicolumn","blocks":{"template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/blond-woman-with-winter-pine.jpg","title":"<strong>                                               ❄ Winter ❄<\/strong>","text":"<p>Stay warm and stylish this winter with our collection of cozy and trendy clothes. Find your perfect outfit for the chilly season.<\/p>","link_label":"","link":"shopify:\/\/collections"}},"template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/tengyart-gCfwD2qb8vY-unsplash.jpg","title":"<strong>🌼Spring🌼<\/strong>","text":"<p>Discover a wide variety of spring clothes that combine fashion and comfort. From dresses to shorts, we have the perfect styles for the season.<\/p>","link_label":"","link":"shopify:\/\/collections"}},"template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/brooke-cagle-_wYQnEAMAQk-unsplash.jpg","title":"<strong>🔆Summer🔆<\/strong>","text":"<p>Stay on-trend this summer with our versatile and chic collection of clothes, we have everything you need for a fashionable season.<\/p>","link_label":"","link":"shopify:\/\/collections"}},"23275c4b-8a94-4005-b6c8-d25347cb54ee":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/adam-neumann-FJst_OBiFhY-unsplash.jpg","title":"<strong>🍁Fall🍁<\/strong>","text":"<p>Get ready for autumn with our collection of trendy and comfortable fall clothes. Dress to impress while staying comfortable.<\/p>","link_label":"","link":"shopify:\/\/collections"}}},"block_order":["template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-1","template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-2","template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-3","23275c4b-8a94-4005-b6c8-d25347cb54ee"],"custom_css":["h2 {margin: auto; display: block; width: fit-content;}"],"settings":{"title":"<strong>Together all seasons of the year<\/strong>","heading_size":"h1","image_width":"full","image_ratio":"portrait","columns_desktop":4,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"shopify:\/\/collections","color_scheme":"inverse","columns_mobile":"1","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"featured_collection":{"type":"featured-collection","settings":{"title":"Hot Sales","heading_size":"h1","description":"","show_description":false,"description_style":"uppercase","collection":"all","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"accent-1","image_ratio":"portrait","image_shape":"parallelogram","show_secondary_image":true,"show_vendor":false,"show_rating":true,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":44,"padding_bottom":36}},"f96e0404-3a94-4e22-8360-84a3656f2d0a":{"type":"multicolumn","blocks":{"template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-1":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-2":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-3":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}}},"block_order":["template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-1","template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-2","template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-3"],"disabled":true,"settings":{"title":"Instagram<strong> Ambassador<\/strong>","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"inverse","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":72}},"88701003-d05b-4bc2-8695-d33602b350fd":{"type":"slideshow","blocks":{"template--21295201747255__88701003-d05b-4bc2-8695-d33602b350fd-slide-1":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/alexander-shatov-71Qk8ODIBko-unsplash.jpg","heading":"Instagram<strong> Ambassador<\/strong>","heading_size":"h2","subheading":"Tell your brand's story through images","button_label":"Show Them","link":"shopify:\/\/pages\/instagram-ambassador","button_style_secondary":false,"box_align":"bottom-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}}},"block_order":["template--21295201747255__88701003-d05b-4bc2-8695-d33602b350fd-slide-1"],"settings":{"layout":"full_bleed","slide_height":"medium","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our"}},"d5184493-35e2-411c-acb3-4343674a8877":{"type":"rich-text","blocks":{"template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-heading-1":{"type":"heading","settings":{"heading":"<strong>Print <\/strong><em><strong>on <\/strong><\/em><strong>Demand <\/strong>","heading_size":"h0"}},"template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-text-1":{"type":"text","settings":{"text":"<p><strong>\"Experience the art of personalized fashion design by taking control of your wardrobe. Explore our professional-grade print-on-demand service and place your order today!\"<\/strong><\/p>"}},"template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-button-1":{"type":"button","settings":{"button_label":"Order Now","button_link":"shopify:\/\/metaobjects\/print_on_demand\/print-on-demand-service","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-heading-1","template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-text-1","template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-button-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"efb4dcfb-f9fb-4263-88cb-8333bf599204":{"type":"video","custom_css":["span.deferred-media__poster-button.motion-reduce {background: none; border: none; position: relative; left: 7rem;}"],"settings":{"heading":"","heading_size":"h1","enable_video_looping":true,"video":"shopify:\/\/files\/videos\/pexels_videos_1704712 (1080p).mp4","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","description":"Fashion Valhalla","full_width":true,"color_scheme":"accent-1","padding_top":36,"padding_bottom":36}}},"order":["image_banner","fa9f171b-5d84-42de-bfff-eae4a5e00645","6d14b2c1-4790-4ecf-9e9f-42009005e331","4b04927e-a945-42f5-9a66-0229ccee83b4","featured_collection","f96e0404-3a94-4e22-8360-84a3656f2d0a","88701003-d05b-4bc2-8695-d33602b350fd","d5184493-35e2-411c-acb3-4343674a8877","efb4dcfb-f9fb-4263-88cb-8333bf599204"]}
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/luke-porter-rg1Z9NtEa80-unsplash.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "fa9f171b-5d84-42de-bfff-eae4a5e00645": {
+      "type": "collection-list",
+      "blocks": {
+        "template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "women"
+          }
+        },
+        "template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "men-clothes"
+          }
+        },
+        "template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "casual"
+          }
+        }
+      },
+      "block_order": [
+        "template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-1",
+        "template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-2",
+        "template--21295201747255__fa9f171b-5d84-42de-bfff-eae4a5e00645-featured_collection-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "accent-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 28
+      }
+    },
+    "6d14b2c1-4790-4ecf-9e9f-42009005e331": {
+      "type": "multirow",
+      "blocks": {
+        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/scotch-and-soda-mens-long-sleeve-jacket_2.png",
+            "caption": "",
+            "heading": "Casual",
+            "text": "<p>Discover the World of Casual Clothes: A Comprehensive Guide Explore the vast realm of casual fashion with our comprehensive guide.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/casual"
+          }
+        },
+        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/only-and-sons-mens-long-sleeve-coat_1.png",
+            "caption": "",
+            "heading": "Sweater",
+            "text": "<p>Elevate Your Style with High-Quality Sweaters Experience elevated style with our collection of high-quality sweaters.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/sweaters"
+          }
+        },
+        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jack-wolfskin-mens-gecko-fleece-pullover_3.png",
+            "caption": "",
+            "heading": "T-shirts",
+            "text": "<p>Discover the Perfect T-Shirt for Every Occasion Explore our wide range of expertly curated T-Shirts for all occasions.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/t-shirts"
+          }
+        }
+      },
+      "block_order": [
+        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-1",
+        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-2",
+        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "inverse",
+        "row_color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4b04927e-a945-42f5-9a66-0229ccee83b4": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blond-woman-with-winter-pine.jpg",
+            "title": "<strong>                                               ❄ Winter ❄<\/strong>",
+            "text": "<p>Stay warm and stylish this winter with our collection of cozy and trendy clothes. Find your perfect outfit for the chilly season.<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tengyart-gCfwD2qb8vY-unsplash.jpg",
+            "title": "<strong>🌼Spring🌼<\/strong>",
+            "text": "<p>Discover a wide variety of spring clothes that combine fashion and comfort. From dresses to shorts, we have the perfect styles for the season.<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brooke-cagle-_wYQnEAMAQk-unsplash.jpg",
+            "title": "<strong>🔆Summer🔆<\/strong>",
+            "text": "<p>Stay on-trend this summer with our versatile and chic collection of clothes, we have everything you need for a fashionable season.<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "23275c4b-8a94-4005-b6c8-d25347cb54ee": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/adam-neumann-FJst_OBiFhY-unsplash.jpg",
+            "title": "<strong>🍁Fall🍁<\/strong>",
+            "text": "<p>Get ready for autumn with our collection of trendy and comfortable fall clothes. Dress to impress while staying comfortable.<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-1",
+        "template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-2",
+        "template--21295201747255__4b04927e-a945-42f5-9a66-0229ccee83b4-column-3",
+        "23275c4b-8a94-4005-b6c8-d25347cb54ee"
+      ],
+      "custom_css": [
+        "h2 {margin: auto; display: block; width: fit-content;}"
+      ],
+      "settings": {
+        "title": "<strong>Together all seasons of the year<\/strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "shopify:\/\/collections",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Hot Sales",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "accent-1",
+        "image_ratio": "portrait",
+        "image_shape": "parallelogram",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "f96e0404-3a94-4e22-8360-84a3656f2d0a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-1",
+        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-2",
+        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Instagram<strong> Ambassador<\/strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    },
+    "88701003-d05b-4bc2-8695-d33602b350fd": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21295201747255__88701003-d05b-4bc2-8695-d33602b350fd-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alexander-shatov-71Qk8ODIBko-unsplash.jpg",
+            "heading": "Instagram<strong> Ambassador<\/strong>",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Show Them",
+            "link": "shopify:\/\/pages\/instagram-ambassador",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21295201747255__88701003-d05b-4bc2-8695-d33602b350fd-slide-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our"
+      }
+    },
+    "d5184493-35e2-411c-acb3-4343674a8877": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Print <\/strong><em><strong>on <\/strong><\/em><strong>Demand <\/strong>",
+            "heading_size": "h0"
+          }
+        },
+        "template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>\"Experience the art of personalized fashion design by taking control of your wardrobe. Explore our professional-grade print-on-demand service and place your order today!\"<\/strong><\/p>"
+          }
+        },
+        "template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Order Now",
+            "button_link": "shopify:\/\/metaobjects\/print_on_demand\/print-on-demand-service",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-heading-1",
+        "template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-text-1",
+        "template--21295201747255__d5184493-35e2-411c-acb3-4343674a8877-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "efb4dcfb-f9fb-4263-88cb-8333bf599204": {
+      "type": "video",
+      "custom_css": [
+        "span.deferred-media__poster-button.motion-reduce {background: none; border: none; position: relative; left: 7rem;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/pexels_videos_1704712 (1080p).mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "Fashion Valhalla",
+        "full_width": true,
+        "color_scheme": "accent-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "fa9f171b-5d84-42de-bfff-eae4a5e00645",
+    "6d14b2c1-4790-4ecf-9e9f-42009005e331",
+    "4b04927e-a945-42f5-9a66-0229ccee83b4",
+    "featured_collection",
+    "f96e0404-3a94-4e22-8360-84a3656f2d0a",
+    "88701003-d05b-4bc2-8695-d33602b350fd",
+    "d5184493-35e2-411c-acb3-4343674a8877",
+    "efb4dcfb-f9fb-4263-88cb-8333bf599204"
+
+  ]
+}

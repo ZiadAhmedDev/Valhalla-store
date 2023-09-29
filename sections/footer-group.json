@@ -1,1 +1,64 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"9f4e3178-4582-480f-a556-a5b8aa73952c":{"type":"link_list","settings":{"heading":"<strong>Flash links<\/strong>","menu":"footer"}},"6da7aaf4-0e1a-4343-a5c9-faa4f90350c1":{"type":"text","settings":{"heading":"<strong>OUR MISSION<\/strong>","subtext":"<p>Immerse yourself in a realm of infinite opportunities with our cutting-edge apparel! Unleash your potential with our revolutionary apparel that opens doors to boundless opportunities!<\/p>"}},"725bd534-a0ce-4bd8-942b-5f771b5e76cc":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/no-revisions-kWVImL5QxJI-unsplash.jpg","image_width":245,"alignment":"right"}}},"block_order":["9f4e3178-4582-480f-a556-a5b8aa73952c","6da7aaf4-0e1a-4343-a5c9-faa4f90350c1","725bd534-a0ce-4bd8-942b-5f771b5e76cc"],"custom_css":[".footer-block:nth-child(1) {padding-left: 4rem;}"],"settings":{"color_scheme":"accent-1","newsletter_enable":true,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":true,"margin_top":0,"padding_top":32,"padding_bottom":32}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "map-location": {
+        "type": "map-location",
+        "settings": {
+        }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "9f4e3178-4582-480f-a556-a5b8aa73952c": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Flash links<\/strong>",
+            "menu": "footer"
+          }
+        },
+        "6da7aaf4-0e1a-4343-a5c9-faa4f90350c1": {
+          "type": "text",
+          "settings": {
+            "heading": "<strong>OUR MISSION<\/strong>",
+            "subtext": "<p>Immerse yourself in a realm of infinite opportunities with our cutting-edge apparel! Unleash your potential with our revolutionary apparel that opens doors to boundless opportunities!<\/p>"
+          }
+        },
+        "725bd534-a0ce-4bd8-942b-5f771b5e76cc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no-revisions-kWVImL5QxJI-unsplash.jpg",
+            "image_width": 245,
+            "alignment": "right"
+          }
+        }
+      },
+      "block_order": [
+        "9f4e3178-4582-480f-a556-a5b8aa73952c",
+        "6da7aaf4-0e1a-4343-a5c9-faa4f90350c1",
+        "725bd534-a0ce-4bd8-942b-5f771b5e76cc"
+      ],
+      "custom_css": [
+        ".footer-block:nth-child(1) {padding-left: 4rem;}"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "map-location"
+  ]
+}

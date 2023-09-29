@@ -39,7 +39,7 @@
                       <a
                         id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                         href="{{ childlink.url }}"
-                        class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        class="mega-menu__link mega-menu__link--level-2 link custom_title {% if childlink.current %} mega-menu__link--active{% endif %}"
                         {% if childlink.current %}
                           aria-current="page"
                         {% endif %}
@@ -90,5 +90,286 @@
         {%- endif -%}
       </li>
     {%- endfor -%}
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'CustomNavigation' -%}
+          {% assign navBlock = block.settings %}
+          <header-menu>
+            <details id="Details-HeaderMenu-1" class="mega-menu">
+              <summary
+                id="HeaderMenu-{{ navBlock.links_1.handle }}"
+                class="header__menu-item list-menu__item link focus-inset"
+              >
+                <span
+                  {%- if navBlock.links_1.child_active %}
+                    class="header__active-menu-item"
+                  {% endif %}
+                >
+                  {{ navBlock.title | escape }}
+                </span>
+                {% render 'icon-caret' %}
+              </summary>
+              <div
+                id="MegaMenu-Content-1"
+                class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+                tabindex="-1"
+              >
+                <ul
+                  class="mega-menu__list page-width custom_mega "
+                  role="list"
+                >
+                  <li>
+                    <a
+                      id="HeaderMenu-1"
+                      href="{{ navBlock.links_1.url }}"
+                      class="mega-menu__link mega-menu__link--level-2 link{% if navBlock.links_1.current %} mega-menu__link--active{% endif %}"
+                      {% if navBlock.links_1.current %}
+                        aria-current="page"
+                      {% endif %}
+                    >
+                      {{ navBlock.links_1.title | escape }}
+                    </a>
+                    {%- if navBlock.links_1.links != blank -%}
+                      <ul class="list-unstyled custom_list_item" role="list">
+                        {%- for grandchildlink in navBlock.links_1.links -%}
+                          <li>
+                            <a
+                              id="HeaderMenu-{{ navBlock.handle }}-{{ navBlock.links_1.handle }}-{{ grandchildlink.handle }}"
+                              href="{{ grandchildlink.url }}"
+                              class="Custom_mega-menu__link mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                              {% if grandchildlink.current %}
+                                aria-current="page"
+                              {% endif %}
+                            >
+                              {{ grandchildlink.title | escape }}
+                            </a>
+                          </li>
+                        {%- endfor -%}
+                      </ul>
+                    {%- endif -%}
+                  </li>
+                  {%- if navBlock.links_2 != blank -%}
+                    <li>
+                      <a
+                        id="HeaderMenu-1"
+                        href="{{ navBlock.links_2.url }}"
+                        class="mega-menu__link mega-menu__link--level-2 link{% if navBlock.links_2.current %} mega-menu__link--active{% endif %}"
+                        {% if navBlock.links_2.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        {{ navBlock.links_2.title | escape }}
+                      </a>
+                      {%- if navBlock.links_2.links != blank -%}
+                        <ul class="list-unstyled custom_list_item" role="list">
+                          {%- for grandchildlink in navBlock.links_2.links -%}
+                            <li>
+                              <a
+                                id="HeaderMenu-{{ navBlock.handle }}-{{ navBlock.links_2.handle }}-{{ grandchildlink.handle }}"
+                                href="{{ grandchildlink.url }}"
+                                class="Custom_mega-menu__link  mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                {% if grandchildlink.current %}
+                                  aria-current="page"
+                                {% endif %}
+                              >
+                                {{ grandchildlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      {%- endif -%}
+                    </li>
+                  {%- endif -%}
+                  {%- if navBlock.links_3 != blank -%}
+                    <li>
+                      <a
+                        id="HeaderMenu-1"
+                        href="{{ navBlock.links_3.url }}"
+                        class="mega-menu__link mega-menu__link--level-2 link{% if navBlock.links_3.current %} mega-menu__link--active{% endif %}"
+                        {% if navBlock.links_2.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        {{ navBlock.links_3.title | escape }}
+                      </a>
+                      {%- if navBlock.links_3.links != blank -%}
+                        <ul class="list-unstyled custom_list_item" role="list">
+                          {%- for grandchildlink in navBlock.links_3.links -%}
+                            <li>
+                              <a
+                                id="HeaderMenu-{{ navBlock.handle }}-{{ navBlock.links_3.handle }}-{{ grandchildlink.handle }}"
+                                href="{{ grandchildlink.url }}"
+                                class="Custom_mega-menu__link mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                {% if grandchildlink.current %}
+                                  aria-current="page"
+                                {% endif %}
+                              >
+                                {{ grandchildlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      {%- endif -%}
+                    </li>
+                  {%- endif -%}
+                  <hr>
+                  <li class="products_list">
+                    <div class="Products_feature">
+                      <center>
+                        <h2>{{ navBlock.products_title }}</h2>
+                      </center>
+                      <div class="products">
+                        <div class="product-1 product_card">
+                          {%- if navBlock.single_product_1 != blank -%}
+                            <div class="product-card">
+                              <div class="product-image">
+                                <a href="{{ navBlock.single_product_1.url }}">
+                                  <img
+                                    src="{{ navBlock.single_product_1.featured_image | img_url: '500' }}"
+                                    alt="{{ navBlock.single_product_1.title }}"
+                                  >
+                                </a>
+                              </div>
+                              <div class="product-info">
+                                <p class="product-title">
+                                  <a href="{{ navBlock.single_product_1.url }}">
+                                    {{- navBlock.single_product_1.title -}}
+                                  </a>
+                                </p>
+                                <div class="product-prices">
+                                  <span class="product-price{% if navBlock.single_product_1.compare_at_price > navBlock.single_product_1.price %} on-sale{% endif %}">
+                                    {{ navBlock.single_product_1.price | money }}
+                                  </span>
+                                  {% if navBlock.single_product_1.compare_at_price > navBlock.single_product_1.price %}
+                                    <span class="product-compare-price">
+                                      {{- navBlock.single_product_1.compare_at_price | money -}}
+                                    </span>
+                                  {% endif %}
+                                </div>
+                              </div>
+                            </div>
+                          {%- endif -%}
+                        </div>
+                        <div class="product-2 product_card">
+                          {%- if navBlock.single_product_2 != blank -%}
+                            <div class="product-card">
+                              <div class="product-image">
+                                <a href="{{ navBlock.single_product_2.url }}">
+                                  <img
+                                    src="{{ navBlock.single_product_2.featured_image | img_url: '500' }}"
+                                    alt="{{ navBlock.single_product_2.title }}"
+                                  >
+                                </a>
+                              </div>
+                              <div class="product-info">
+                                <p class="product-title">
+                                  <a href="{{ navBlock.single_product_2.url }}">
+                                    {{- navBlock.single_product_2.title -}}
+                                  </a>
+                                </p>
+                                <div class="product-prices">
+                                  <span class="product-price{% if navBlock.single_product_2.compare_at_price > navBlock.single_product_2.price %} on-sale{% endif %}">
+                                    {{ navBlock.single_product_2.price | money }}
+                                  </span>
+                                  {% if navBlock.single_product_2.compare_at_price > navBlock.single_product_2.price %}
+                                    <span class="product-compare-price">
+                                      {{- navBlock.single_product_2.compare_at_price | money -}}
+                                    </span>
+                                  {% endif %}
+                                </div>
+                              </div>
+                            </div>
+                          {%- endif -%}
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </details>
+          </header-menu>
+      {%- endcase -%}
+    {%- endfor -%}
   </ul>
 </nav>
+
+<style>
+  ul.custom_mega {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0;
+    row-gap: 0;
+    padding: 0;
+    align-items: self-start;
+  }
+  hr {
+    height: 23vh;
+    width: 1px;
+    background-color: white;
+    margin: 10px 20px 5px 20px;
+    position: relative;
+    right: 50px;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+  .header--top-center .custom_mega > li {
+    width: 22%;
+    height: 20vh;
+  }
+  ul.custom_mega li.products_list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    flex: 1;
+    margin: 10px 5px 0 0;
+  }
+  div.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  div.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  div.product_card {
+    background-color: #242833;
+    border-radius: 10px;
+    margin-right: 2rem;
+  }
+  p.product-title a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #HeaderMenu-1 {
+    font-size: 2rem;
+  }
+  a.Custom_mega-menu__link {
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  ul.custom_list_item {
+    height: 100%;
+  }
+  ul.custom_list_item > li {
+    margin: 5px 0;
+  }
+
+  div.Products_feature {
+    margin-top: 10px;
+  }
+
+  span.product-price.on-sale {
+    text-decoration: line-through;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+  }
+</style>

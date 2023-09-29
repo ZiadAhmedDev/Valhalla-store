@@ -459,6 +459,12 @@
           <div id="CartDrawer-CartErrors" role="alert"></div>
         </form>
       </cart-drawer-items>
+
+      {% comment %} UpSelling card {% endcomment %}
+      {% if settings.upSelling_product %}
+        {% render 'upselling-cart-drawer-item' %}
+      {% endif %}
+
       <div class="drawer__footer">
         {%- if settings.show_cart_note -%}
           <details id="Details-CartDrawer">

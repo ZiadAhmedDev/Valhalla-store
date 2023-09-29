@@ -202,10 +202,14 @@
         if section.settings.menu_type_desktop == 'dropdown'
           render 'header-dropdown-menu'
         elsif section.settings.menu_type_desktop != 'drawer'
-          render 'header-mega-menu'
+          render 'header-mega-menu', block: block
+
         endif
       endif
     %}
+
+
+
 
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
@@ -236,6 +240,8 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
+
+
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
       <div class="desktop-localization-wrapper">
@@ -683,8 +689,66 @@
     }
   ],
   "blocks": [
+
     {
-      "type": "@app"
+      "type": "CustomNavigation",
+      "name": "Custom Navigation",
+      "settings": [
+        {
+          "type": "header",
+          "content": "3 linklists + 2 products + 2 banners"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Item Title",
+          "default": "Item"
+        },
+        {
+          "type": "header",
+          "content": "Linklists"
+        },
+        {
+          "type": "text",
+          "id": "links_1_title",
+          "label": "linkList Title"
+        },
+        {
+          "type": "link_list",
+          "id": "links_1",
+          "label": "Linklist #1"
+        },
+        {
+          "type": "link_list",
+          "id": "links_2",
+          "label": "Linklist #2"
+        },
+        {
+          "type": "link_list",
+          "id": "links_3",
+          "label": "Linklist #3"
+        },
+        {
+          "type": "header",
+          "content": "Product"
+        },
+        {
+          "type": "text",
+          "id": "products_title",
+          "label": "Products Title",
+          "default": "Features products"
+        },
+        {
+          "type": "product",
+          "id": "single_product_1",
+          "label": "Choose product 1"
+        },
+        {
+          "type": "product",
+          "id": "single_product_2",
+          "label": "Choose product 2"
+        }
+      ]
     }
   ]
 }

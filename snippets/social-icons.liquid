@@ -9,6 +9,11 @@
   %}
 {% endcomment %}
 
+{% if section.content contains '<footer>' %}
+  <div class="share-store-message">
+    <p>Share our store with your friends:</p>
+  </div>
+{% endif %}
 <ul class="list-unstyled list-social{% if class %} {{ class}}{% endif %}" role="list">
   {%- if settings.social_facebook_link != blank -%}
     <li class="list-social__item">
