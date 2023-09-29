@@ -442,10 +442,10 @@
         "section_padding_top_xs": 60,
         "section_padding_bottom_xs": 60,
         "section_bgcolor_enable": false,
-        "section_bgcolor": "#f8f8f8",
+        "section_bgcolor": "#121212",
         "section_bg_image_enable": false,
         "border": 1,
-        "border_color": "#eeeeee",
+        "border_color": "#121212",
         "border_enable": false,
         "border_color_opacity": 1
       }
