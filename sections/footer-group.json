@@ -2,6 +2,10 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "map-location":{
+      "type":"map-location",
+      "settings":{}
+    },
     "footer": {
       "type": "footer",
       "blocks": {
