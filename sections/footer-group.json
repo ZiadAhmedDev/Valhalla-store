@@ -2,9 +2,10 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "map-location":{
-      "type":"map-location",
-      "settings":{}
+    "map-location": {
+      "type": "map-location",
+      "settings": {
+      }
     },
     "footer": {
       "type": "footer",
@@ -42,7 +43,9 @@
         "img {object-fit: contain; height: 100%;}",
         ".footer-block:nth-child(2) {text-align: center; margin-right: 70px; line-height: 1.8;}",
         ".footer__list-social {display: flex; align-content: center; justify-content: center;}",
-        ".footer__list-social p {font-size: 20px; margin-right: 10px;}"
+        ".footer__list-social p {font-size: 20px; margin-right: 10px;}",
+        ".footer-block h2 {font-size: 25px;}",
+        "ul.footer-block__details-content li a {font-size:18px}"
       ],
       "settings": {
         "color_scheme": "accent-1",
