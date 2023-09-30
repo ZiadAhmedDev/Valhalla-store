@@ -2,16 +2,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "marquee-bar":
-    {
-      "type": "marquee-bar",
-      "blocks": {
-
-      },
-      "settings" : {
-
-      }
-    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -21,18 +11,10 @@
             "text": "Welcome to your favorite store",
             "link": "{{ shop.brand.favicon_url }}"
           }
-        },
-        "d2b480b0-54e4-4120-a702-1558bfa7dd80": {
-          "type": "announcement",
-          "settings": {
-            "text": "NO SHIPPING EXPENSS",
-            "link": "shopify:\/\/collections\/all-products"
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "d2b480b0-54e4-4120-a702-1558bfa7dd80"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "accent-1",
@@ -42,6 +24,18 @@
         "change_slides_speed": 4,
         "enable_country_selector": false,
         "enable_language_selector": false
+      }
+    },
+    "marquee-bar": {
+      "type": "marquee-bar",
+      "settings": {
+        "text": "NO SHIPPING EXPENSS",
+        "text_2": "30 Days Refund",
+        "text_3": "Customer Service 24\/7",
+        "colorBackground": "#000",
+        "colorText": "#fff",
+        "link": "shopify:\/\/collections\/all",
+        "textDirection": "left"
       }
     },
     "header": {
