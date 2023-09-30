@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "custom_css": [
+        "h1.title{text-align:center;}"
+      ],
       "settings": {
         "color_scheme": "accent-1",
         "title": "Collections",
