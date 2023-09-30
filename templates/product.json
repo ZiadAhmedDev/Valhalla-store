@@ -1,1 +1,165 @@
-{"sections":{"main":{"type":"main-product","blocks":{"6777c653-5793-4767-b135-52a8b9d552b6":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{}},"vendor":{"type":"text","settings":{"text":"{{ product.vendor }}","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"72ba6ec2-6b74-4635-a61b-21871e2d2d2e":{"type":"collapsible_tab","settings":{"heading":"Description","icon":"chat_bubble","content":"","page":"","show_media":false}},"10567137-ec2d-4484-8050-bbea44d2ea79":{"type":"collapsible_tab","settings":{"heading":"Media","icon":"eye","content":"","page":"","show_media":true}},"share":{"type":"share","settings":{"share_label":"Share"}},"f6df46e2-5de5-4b78-9803-0ef5aa705249":{"type":"complementary","settings":{"block_heading":"People also buy:","make_collapsible_row":false,"icon":"price_tag","product_list_limit":6,"products_per_page":3,"pagination_style":"counter","image_ratio":"portrait","enable_quick_add":true}}},"block_order":["6777c653-5793-4767-b135-52a8b9d552b6","vendor","title","price","variant_picker","quantity_selector","buy_buttons","72ba6ec2-6b74-4635-a61b-21871e2d2d2e","10567137-ec2d-4484-8050-bbea44d2ea79","share","f6df46e2-5de5-4b78-9803-0ef5aa705249"],"custom_css":["iframe {max-width: 100%; height: 30rem; display: block; margin: 20px 0; \/* Add margin for spacing *\/ border: none; \/* Remove iframe border *\/}"],"settings":{"enable_sticky_info":true,"media_size":"medium","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"thumbnail_slider","media_position":"left","image_zoom":"hover","mobile_thumbnails":"show","hide_variants":true,"enable_video_looping":true,"padding_top":36,"padding_bottom":12}},"16958873804fd15370":{"type":"apps","blocks":{"d8d47680-9bd1-4f96-9d8e-776eb509a262":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{}},"b63057ed-901b-41f0-ae44-8c108205aa29":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{"maxwidth":1080}}},"block_order":["d8d47680-9bd1-4f96-9d8e-776eb509a262","b63057ed-901b-41f0-ae44-8c108205aa29"],"settings":{"include_margins":true}},"related-products":{"type":"related-products","settings":{"heading":"You may also like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"accent-1","image_ratio":"portrait","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":true,"columns_mobile":"2","padding_top":36,"padding_bottom":28}}},"order":["main","16958873804fd15370","related-products"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "6777c653-5793-4767-b135-52a8b9d552b6": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "72ba6ec2-6b74-4635-a61b-21871e2d2d2e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "icon": "chat_bubble",
+            "content": "",
+            "page": "",
+            "show_media": false
+          }
+        },
+        "10567137-ec2d-4484-8050-bbea44d2ea79": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Media",
+            "icon": "eye",
+            "content": "",
+            "page": "",
+            "show_media": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "f6df46e2-5de5-4b78-9803-0ef5aa705249": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "People also buy:",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 6,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "portrait",
+            "enable_quick_add": true
+          }
+        }
+      },
+      "block_order": [
+        "6777c653-5793-4767-b135-52a8b9d552b6",
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "72ba6ec2-6b74-4635-a61b-21871e2d2d2e",
+        "10567137-ec2d-4484-8050-bbea44d2ea79",
+        "share",
+        "f6df46e2-5de5-4b78-9803-0ef5aa705249"
+      ],
+      "custom_css": [
+        "iframe {max-width: 100%; height: 30rem; display: block; margin: 20px 0; \/* Add margin for spacing *\/ border: none; \/* Remove iframe border *\/}"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "enable_sticky_info": true,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "16958873804fd15370": {
+      "type": "apps",
+      "blocks": {
+        "d8d47680-9bd1-4f96-9d8e-776eb509a262": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "b63057ed-901b-41f0-ae44-8c108205aa29": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "d8d47680-9bd1-4f96-9d8e-776eb509a262",
+        "b63057ed-901b-41f0-ae44-8c108205aa29"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "accent-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16958873804fd15370",
+    "related-products"
+  ]
+}
