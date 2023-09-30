@@ -1,7 +1,7 @@
+<div class="color-{{ section.settings.color_scheme }}">
 <section
   id="MainProduct-{{ section.id }}"
   class="page-width section-{{ section.id }}-padding
-color-{{ section.settings.color_scheme }} "
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -690,7 +690,7 @@ color-{{ section.settings.color_scheme }} "
     }
   </script>
 </section>
-
+</div>
 {% schema %}
 {
   "name": "t:sections.main-product.name",
