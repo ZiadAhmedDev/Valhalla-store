@@ -31,24 +31,14 @@
       margin-left: 40px;
     }
 
-   @keyframes marquee {
-   {%- if section.settings.textDirection == 'right' -%}
+  @keyframes marquee {
+
     0% {
-      transform: translateX(-90%);
+      transform: translateX({%- if section.settings.textDirection == 'left' -%}60%{%- else -%}-60%{%- endif -%});
     }
     100% {
-      transform: translateX(90%);
+      transform: translateX({%- if section.settings.textDirection == 'left' -%}-60%{%- else -%}60%{%- endif -%});
     }
-    {%- else -%}
-    100% {
-      transform: translateX(90%);
-    }
-    0% {
-      transform: translateX(-90%);
-    }
-
-   {%- endif -%}
-
   }
 </style>
 
