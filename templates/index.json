@@ -308,7 +308,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
         }
