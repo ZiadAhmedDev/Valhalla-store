@@ -3,7 +3,8 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-        "div.card__inner img{object-fit:contain;}"
+        "div.card__inner img {object-fit: contain;}",
+        "div.main-blog h1 {display: block; width: fit-content; margin: 0 auto 3rem;}"
       ],
       "settings": {
         "layout": "collage",
