@@ -1,41 +1,43 @@
-<section
-  class="our-service-area"
-  {% if section.settings.section_bg_image_enable %}
-    style="background-image: url({% if section.settings.section_bg_image %}{{ section.settings.section_bg_image | image_url }}{% else %}https://dummyimage.com/1350x200{% endif %});"
-  {% endif %}
->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="service-main">
-          <ul class="service-wrap">
-            {% for block in section.blocks %}
-              <li class="service-wrapper">
-                <div class="service-block">
-                  <div class="icon-block">
-                    {% if block.settings.service_icon != '' %}
-                      <a href="{{ block.settings.service_url }}" class="service-icon">
-                        <span class="icon"><i class="{{ block.settings.service_icon }}"></i></span>
-                      </a>
-                    {% endif %}
+<div id="shopify-section-b94d5601-087c-4d4e-85a5-81134b0a1d06" class="shopify-section">
+  <section
+    class="our-service-area"
+    {% if section.settings.section_bg_image_enable %}
+      style="background-image: url({% if section.settings.section_bg_image %}{{ section.settings.section_bg_image | image_url }}{% else %}https://dummyimage.com/1350x200{% endif %});"
+    {% endif %}
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="service-main">
+            <ul class="service-wrap">
+              {% for block in section.blocks %}
+                <li class="service-wrapper">
+                  <div class="service-block">
+                    <div class="icon-block">
+                      {% if block.settings.service_icon != '' %}
+                        <a href="{{ block.settings.service_url }}" class="service-icon">
+                          <span class="icon"><i class="{{ block.settings.service_icon }}"></i></span>
+                        </a>
+                      {% endif %}
+                    </div>
+                    <div class="service-text">
+                      {% if block.settings.service_title != '' %}
+                        <h6>{{ block.settings.service_title }}</h6>
+                      {% endif %}
+                      {% if block.settings.service_desc != '' %}
+                        <p>{{ block.settings.service_desc }}</p>
+                      {% endif %}
+                    </div>
                   </div>
-                  <div class="service-text">
-                    {% if block.settings.service_title != '' %}
-                      <h6>{{ block.settings.service_title }}</h6>
-                    {% endif %}
-                    {% if block.settings.service_desc != '' %}
-                      <p>{{ block.settings.service_desc }}</p>
-                    {% endif %}
-                  </div>
-                </div>
-              </li>
-            {% endfor %}
-          </ul>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
 {% schema %}
 {
   "name": "Our service",
