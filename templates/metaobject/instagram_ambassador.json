@@ -1,1 +1,52 @@
-{"sections":{"cf66781b-1478-4bb5-be3e-62a105d4f3c2":{"type":"custom-liquid","settings":{"custom_liquid":"<center><h1>Instgram <strong>Ambassador<\/strong><\/h1><\/center>","color_scheme":"","padding_top":40,"padding_bottom":0}},"86bffdae-5dc6-4e26-b130-0f0f0fcf949e":{"type":"multirow","blocks":{"template--21315249045815__86bffdae-5dc6-4e26-b130-0f0f0fcf949e-row-1":{"type":"row","source":"{{ metaobject }}","settings":{"image":"{{ metaobject.image.value }}","caption":"{{ metaobject.location.value }}","heading":"{{ metaobject.title.value }}","text":"{{ metaobject.description | metafield_tag }}","button_label":"Instagram Page","button_link":"{{ metaobject.system.url }}"}}},"block_order":["template--21315249045815__86bffdae-5dc6-4e26-b130-0f0f0fcf949e-row-1"],"settings":{"image_height":"medium","desktop_image_width":"medium","heading_size":"h1","text_style":"body","button_style":"secondary","desktop_content_position":"middle","desktop_content_alignment":"left","image_layout":"alternate-left","section_color_scheme":"","row_color_scheme":"","mobile_content_alignment":"left","padding_top":16,"padding_bottom":36}}},"order":["cf66781b-1478-4bb5-be3e-62a105d4f3c2","86bffdae-5dc6-4e26-b130-0f0f0fcf949e"]}
+{
+  "sections": {
+    "cf66781b-1478-4bb5-be3e-62a105d4f3c2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<center><h1>Instgram <strong>Ambassador<\/strong><\/h1><\/center>",
+        "color_scheme": "accent-1",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "86bffdae-5dc6-4e26-b130-0f0f0fcf949e": {
+      "type": "multirow",
+      "blocks": {
+        "template--21315249045815__86bffdae-5dc6-4e26-b130-0f0f0fcf949e-row-1": {
+          "type": "row",
+          "source": "{{ metaobject }}",
+          "settings": {
+            "image": "{{ metaobject.image.value }}",
+            "caption": "{{ metaobject.location.value }}",
+            "heading": "{{ metaobject.title.value }}",
+            "text": "{{ metaobject.description | metafield_tag }}",
+            "button_label": "Instagram Page",
+            "button_link": "{{ metaobject.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--21315249045815__86bffdae-5dc6-4e26-b130-0f0f0fcf949e-row-1"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "accent-1",
+        "row_color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "cf66781b-1478-4bb5-be3e-62a105d4f3c2",
+    "86bffdae-5dc6-4e26-b130-0f0f0fcf949e"
+  ]
+}
