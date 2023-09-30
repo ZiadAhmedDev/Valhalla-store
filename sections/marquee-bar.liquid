@@ -1,43 +1,42 @@
 <style>
-     .custom-marquee {
-      position: relative;
-      width: 100vw;
-      max-width: 100%;
-      height: 43px;
-      overflow-x: hidden;
-      background: {{section.settings.colorBackground}};
-      color: {{section.settings.colorText}};
-    }
+       .custom-marquee {
+        position: relative;
+        width: 100vw;
+        max-width: 100%;
+        height: 43px;
+        overflow-x: hidden;
+        background: {{section.settings.colorBackground}};
+        color: {{section.settings.colorText}};
+      }
 
-    .custom-marquee a {
-      color: {{section.settings.colorText}};
-    }
+      .custom-marquee a {
+        color: {{section.settings.colorText}};
+      }
 
-    .custom-marquee .track {
-      position: absolute;
-      bottom: 6px;
-      white-space: nowrap;
-      will-change: transform;
-      animation: marquee 20s linear infinite alternate;
-      backface-visibility: hidden;
+      .custom-marquee .track {
+        position: absolute;
+        bottom: 6px;
+        white-space: nowrap;
+        will-change: transform;
+        animation: marquee 20s linear infinite alternate;
+        backface-visibility: hidden;
 
-    }
+      }
 
-    .custom-marquee:hover .track {
-      animation-play-state: paused;
-    }
+      .custom-marquee:hover .track {
+        animation-play-state: paused;
+      }
 
-    .custom-marquee .content {
-      margin-left: 40px;
-    }
+      .custom-marquee .content {
+        margin-left: 40px;
+      }
 
-  @keyframes marquee {
-
+   @keyframes marquee {
     0% {
-      transform: translateX({%- if section.settings.textDirection == 'left' -%}60%{%- else -%}-60%{%- endif -%});
+      transform: translateX({%- if section.settings.textDirection == 'left' -%}100%{%- else -%}-100%{%- endif -%});
     }
     100% {
-      transform: translateX({%- if section.settings.textDirection == 'left' -%}-60%{%- else -%}60%{%- endif -%});
+      transform: translateX({%- if section.settings.textDirection == 'left' -%}-100%{%- else -%}100%{%- endif -%});
     }
   }
 </style>
