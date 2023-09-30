@@ -394,7 +394,7 @@
         "8439f3e5-c0b3-4c3a-99bb-f6b8040fda9f": {
           "type": "our_services",
           "settings": {
-            "service_icon": "feather-truck",
+            "service_icon": "feather-align-center",
             "service_title": "Free shipping",
             "service_desc": "It is a long established fact that a reader will be distracted by the.. !",
             "service_url": ""
@@ -434,6 +434,9 @@
         "305e5a7c-6877-4204-aca1-1ee2033a2eff",
         "f023febc-51b1-4557-828e-094f5cfd6296"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "section_padding_top": 100,
         "section_padding_bottom": 100,
@@ -442,10 +445,10 @@
         "section_padding_top_xs": 60,
         "section_padding_bottom_xs": 60,
         "section_bgcolor_enable": false,
-        "section_bgcolor": "#f8f8f8",
+        "section_bgcolor": "#121212",
         "section_bg_image_enable": false,
         "border": 1,
-        "border_color": "#eeeeee",
+        "border_color": "#121212",
         "border_enable": false,
         "border_color_opacity": 1
       }
