@@ -1,6 +1,7 @@
 <section
   id="MainProduct-{{ section.id }}"
-  class="page-width section-{{ section.id }}-padding"
+  class="page-width section-{{ section.id }}-padding
+color-{{ section.settings.color_scheme }} "
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -2028,6 +2029,13 @@
     }
   ],
   "settings": [
+{
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "info": "t:sections.all.colors.has_cards_info",
+      "default": "background-1"
+    },
     {
       "type": "checkbox",
       "id": "enable_sticky_info",

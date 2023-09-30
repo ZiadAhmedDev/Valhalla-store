@@ -5,7 +5,10 @@
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
 >
-<div id="shopify-section-b94d5601-087c-4d4e-85a5-81134b0a1d06" class="shopify-section">
+<div
+  id="shopify-section-b94d5601-087c-4d4e-85a5-81134b0a1d06"
+  class="shopify-section color-{{ section.settings.color_scheme }} "
+>
   <section class="our-service-area">
     <div class="container">
       <div class="row">
@@ -406,6 +409,13 @@
       "max": 1,
       "step": 0.1,
       "default": 1
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "info": "t:sections.all.colors.has_cards_info",
+      "default": "background-1"
     }
   ],
   "blocks": [
