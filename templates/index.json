@@ -388,71 +388,63 @@
         "show_controls": false
       }
     },
-    "fbd23863-177c-430a-bf63-e22c77c4c0ab": {
-      "type": "our-services",
-      "blocks": {
-        "8439f3e5-c0b3-4c3a-99bb-f6b8040fda9f": {
-          "type": "our_services",
-          "settings": {
-            "service_icon": "feather-align-center",
-            "service_title": "Free shipping",
-            "service_desc": "It is a long established fact that a reader will be distracted by the.. !",
-            "service_url": ""
+    "our-services": {
+        "type": "our-services",
+        "blocks": {
+          "1598098392907": {
+            "type": "our_services",
+            "settings": {
+              "service_icon": "feather-truck",
+              "service_title": "Free shipping",
+              "service_url": ""
+            }
+          },
+          "1598098476898": {
+            "type": "our_services",
+            "settings": {
+              "service_icon": "feather-rotate-ccw",
+              "service_title": "30 Days return",
+              "service_url": ""
+            }
+          },
+          "1598098814123": {
+            "type": "our_services",
+            "settings": {
+              "service_icon": "feather-gift",
+              "service_title": "Gift voucher",
+              "service_url": ""
+            }
+          },
+          "221dcf68-0608-4c60-8d27-37109d4255b1": {
+            "type": "our_services",
+            "settings": {
+              "service_icon": "feather-headphones",
+              "service_title": "27*7 Live support",
+              "service_url": ""
+            }
           }
         },
-        "f8728488-b409-4305-a991-1e19fab40ec9": {
-          "type": "our_services",
-          "settings": {
-            "service_icon": "feather-truck",
-            "service_title": "Free shipping",
-            "service_desc": "It is a long established fact that a reader will be distracted by the.. !",
-            "service_url": ""
-          }
-        },
-        "305e5a7c-6877-4204-aca1-1ee2033a2eff": {
-          "type": "our_services",
-          "settings": {
-            "service_icon": "feather-truck",
-            "service_title": "Free shipping",
-            "service_desc": "It is a long established fact that a reader will be distracted by the.. !",
-            "service_url": ""
-          }
-        },
-        "f023febc-51b1-4557-828e-094f5cfd6296": {
-          "type": "our_services",
-          "settings": {
-            "service_icon": "feather-truck",
-            "service_title": "Free shipping",
-            "service_desc": "It is a long established fact that a reader will be distracted by the.. !",
-            "service_url": ""
-          }
+        "block_order": [
+          "1598098392907",
+          "1598098476898",
+          "1598098814123",
+          "221dcf68-0608-4c60-8d27-37109d4255b1"
+        ],
+        "settings": {
+          "section_padding_top": 100,
+          "section_padding_bottom": 100,
+          "section_padding_top_lg": 80,
+          "section_padding_bottom_lg": 80,
+          "section_padding_top_xs": 60,
+          "section_padding_bottom_xs": 60,
+          "section_bgcolor_enable": true,
+          "section_bgcolor": "#fbf7f7",
+          "border": 1,
+          "border_color": "#eeeeee",
+          "border_enable": false,
+          "border_color_opacity": 1
         }
-      },
-      "block_order": [
-        "8439f3e5-c0b3-4c3a-99bb-f6b8040fda9f",
-        "f8728488-b409-4305-a991-1e19fab40ec9",
-        "305e5a7c-6877-4204-aca1-1ee2033a2eff",
-        "f023febc-51b1-4557-828e-094f5cfd6296"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "section_padding_top": 100,
-        "section_padding_bottom": 100,
-        "section_padding_top_lg": 80,
-        "section_padding_bottom_lg": 80,
-        "section_padding_top_xs": 60,
-        "section_padding_bottom_xs": 60,
-        "section_bgcolor_enable": false,
-        "section_bgcolor": "#121212",
-        "section_bg_image_enable": false,
-        "border": 1,
-        "border_color": "#121212",
-        "border_enable": false,
-        "border_color_opacity": 1
       }
-    }
   },
   "order": [
     "image_banner",
@@ -464,6 +456,6 @@
     "88701003-d05b-4bc2-8695-d33602b350fd",
     "d5184493-35e2-411c-acb3-4343674a8877",
     "efb4dcfb-f9fb-4263-88cb-8333bf599204",
-    "fbd23863-177c-430a-bf63-e22c77c4c0ab"
-  ]
+    "our-services"
+    ]
 }

@@ -1,42 +1,206 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+>
 <div id="shopify-section-b94d5601-087c-4d4e-85a5-81134b0a1d06" class="shopify-section">
-  <section
-    class="our-service-area"
-    {% if section.settings.section_bg_image_enable %}
-      style="background-image: url({% if section.settings.section_bg_image %}{{ section.settings.section_bg_image | image_url }}{% else %}https://dummyimage.com/1350x200{% endif %});"
-    {% endif %}
-  >
+  <section class="our-service-area">
     <div class="container">
       <div class="row">
         <div class="col">
           <div class="service-main">
             <ul class="service-wrap">
-              {% for block in section.blocks %}
-                <li class="service-wrapper">
-                  <div class="service-block">
-                    <div class="icon-block">
-                      {% if block.settings.service_icon != '' %}
-                        <a href="{{ block.settings.service_url }}" class="service-icon">
-                          <span class="icon"><i class="{{ block.settings.service_icon }}"></i></span>
-                        </a>
-                      {% endif %}
-                    </div>
-                    <div class="service-text">
-                      {% if block.settings.service_title != '' %}
-                        <h6>{{ block.settings.service_title }}</h6>
-                      {% endif %}
-                      {% if block.settings.service_desc != '' %}
-                        <p>{{ block.settings.service_desc }}</p>
-                      {% endif %}
-                    </div>
+              <li class="service-wrapper">
+                <div class="service-block">
+                  <div class="icon-block">
+                    <a href="" class="service-icon">
+                      <span class="icon"><i class="fa-solid fa-gift"></i></span>
+                    </a>
                   </div>
-                </li>
-              {% endfor %}
+                  <div class="service-text">
+                    <h6>Free shipping</h6>
+
+                    <p>It is a long established fact that a reader will be distracted by the.. !</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-wrapper">
+                <div class="service-block">
+                  <div class="icon-block">
+                    <a href="" class="service-icon">
+                      <span class="icon"><i class="feather-lock"></i></span>
+                    </a>
+                  </div>
+                  <div class="service-text">
+                    <h6>Secure payment</h6>
+
+                    <p>It is a long established fact that a reader will be distracted by the.. !</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-wrapper">
+                <div class="service-block">
+                  <div class="icon-block">
+                    <a href="" class="service-icon">
+                      <span class="icon"><i class="feather-rotate-ccw"></i></span>
+                    </a>
+                  </div>
+                  <div class="service-text">
+                    <h6>30 Days return</h6>
+
+                    <p>It is a long established fact that a reader will be distracted by the.. !</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-wrapper">
+                <div class="service-block">
+                  <div class="icon-block">
+                    <a href="" class="service-icon">
+                      <span class="icon"><i class="feather-gift"></i></span>
+                    </a>
+                  </div>
+                  <div class="service-text">
+                    <h6>Gift voucher</h6>
+
+                    <p>It is a long established fact that a reader will be distracted by the.. !</p>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <style>
+    .our-service-area {
+      padding-top: 100px;
+      padding-bottom: 0px;
+    }
+    @media (max-width: 1199px) {
+      .our-service-area {
+        padding-top: 80px;
+        padding-bottom: 0px;
+      }
+    }
+    @media (max-width: 767px) {
+      .our-service-area {
+        padding-top: 60px;
+        padding-bottom: 0px;
+      }
+    }
+
+    .our-service-area .service-main ul.service-wrap {
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: -30px;
+
+      margin-left: -30px;
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper {
+      width: calc(25% - 30px);
+      margin-top: 30px;
+
+      margin-left: 30px;
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block {
+      text-align: center;
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block {
+      position: relative;
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block::before {
+      content: '';
+      position: absolute;
+      top: 40px;
+      width: 100%;
+      border: 1px dashed #ffebee;
+      z-index: -1;
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper:last-child .service-block .icon-block::before {
+      display: none;
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block a.service-icon {
+      background-color: #faf8f6;
+      color: rgb(254, 130, 141);
+      width: 80px;
+      height: 80px;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
+      margin: 0 auto;
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper:hover .service-block .icon-block a.service-icon {
+      background-color: rgb(254, 130, 141);
+      color: #ffffff;
+    }
+    .our-service-area
+      .service-main
+      ul.service-wrap
+      li.service-wrapper
+      .service-block
+      .icon-block
+      a.service-icon
+      span.icon {
+      display: block;
+      line-height: 0;
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text {
+      margin-top: 25px;
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text h6 {
+      font-size: 18px;
+      font-weight: var(--font-custom-weight-section-header);
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text p {
+      width: 83.33%;
+      margin: 15px auto 0;
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block a.service-icon,
+    .our-service-area .service-main ul.service-wrap li.service-wrapper:hover .service-block .icon-block a.service-icon {
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      -o-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    @media (max-width: 1399px) {
+      .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text p {
+        width: 100%;
+      }
+    }
+    @media (max-width: 991px) {
+      .our-service-area .service-main ul.service-wrap li.service-wrapper {
+        width: calc(50% - 30px);
+      }
+      .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block::before {
+        display: none;
+      }
+    }
+    @media (max-width: 767px) {
+      .our-service-area .service-main ul.service-wrap {
+        margin-left: -12px;
+      }
+      .our-service-area .service-main ul.service-wrap li.service-wrapper {
+        width: calc(50% - 12px);
+
+        margin-left: 12px;
+      }
+    }
+    @media (max-width: 479px) {
+      .our-service-area .service-main ul.service-wrap li.service-wrapper {
+        width: calc(100% - 12px);
+      }
+    }
+  </style>
 </div>
 {% schema %}
 {
@@ -225,143 +389,3 @@
   ]
 }
 {% endschema %}
-<style>
-  .our-service-area {
-    padding-top:{{ section.settings.section_padding_top }}px;
-    padding-bottom:{{ section.settings.section_padding_bottom }}px;
-    {% if section.settings.section_bgcolor_enable %}
-    background-color: {{ section.settings.section_bgcolor }};
-    {% endif %}
-    {% if section.settings.section_bg_image_enable %}
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    {% endif %}
-    {% if section.settings.border_enable %}
-    border-top: {{ section.settings.border }}px solid {{ section.settings.border_color | color_modify: 'alpha', section.settings.border_color_opacity }};
-    {% endif %}
-  }
-  @media (max-width: 1199px) {
-    .our-service-area {
-      padding-top:{{ section.settings.section_padding_top_lg }}px;
-      padding-bottom:{{ section.settings.section_padding_bottom_lg }}px;
-    }
-  }
-  @media (max-width: 767px) {
-    .our-service-area {
-      padding-top:{{ section.settings.section_padding_top_xs }}px;
-      padding-bottom:{{ section.settings.section_padding_bottom_xs }}px;
-    }
-  }
-
-  .our-service-area .service-main ul.service-wrap {
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: -30px;
-    {% if settings.enable_rtl %}
-    margin-right: -30px;
-    {% else %}
-    margin-left: -30px;
-    {% endif %}
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper {
-    width: calc(25% - 30px);
-    margin-top: 30px;
-    {% if settings.enable_rtl %}
-    margin-right: 30px;
-    {% else %}
-    margin-left: 30px;
-    {% endif %}
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block {
-    text-align: center;
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block {
-    position: relative;
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block::before {
-    content: "";
-    position: absolute;
-    top: 40px;
-    width: 100%;
-    border: 1px dashed var(--theme-border-color);
-    z-index: -1;
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper:last-child .service-block .icon-block::before {
-    display: none;
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block a.service-icon {
-    background-color: var(--extra-color-body);
-    color: var(--font-color-primary);
-    width: 80px;
-    height: 80px;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    margin: 0 auto;
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper:hover .service-block .icon-block a.service-icon {
-    background-color: var(--font-color-primary);
-    color: #ffffff;
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block a.service-icon span.icon {
-    display: block;
-    line-height: 0;
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text {
-    margin-top: 25px;
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text h6 {
-    font-size: 18px;
-    font-weight: var(--font-custom-weight-section-header);
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text p {
-    width: 83.33%;
-    margin: 15px auto 0;
-  }
-  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block a.service-icon,
-  .our-service-area .service-main ul.service-wrap li.service-wrapper:hover .service-block .icon-block a.service-icon {
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-  }
-  @media (max-width: 1399px) {
-    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text p {
-      width: 100%;
-    }
-  }
-  @media (max-width: 991px) {
-    .our-service-area .service-main ul.service-wrap li.service-wrapper {
-      width: calc(50% - 30px);
-    }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block::before {
-      display: none;
-    }
-  }
-  @media (max-width: 767px) {
-    .our-service-area .service-main ul.service-wrap {
-      {% if settings.enable_rtl %}
-      margin-right: -12px;
-      {% else %}
-      margin-left: -12px;
-      {% endif %}
-    }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper {
-      width: calc(50% - 12px);
-      {% if settings.enable_rtl %}
-      margin-right: 12px;
-      {% else %}
-      margin-left: 12px;
-      {% endif %}
-    }
-  }
-  @media (max-width: 479px) {
-    .our-service-area .service-main ul.service-wrap li.service-wrapper {
-      width: calc(100% - 12px);
-    }
-  }
-</style>
