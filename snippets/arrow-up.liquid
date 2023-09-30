@@ -21,11 +21,25 @@
     font-size: 20px;
     text-decoration: none;
     opacity: 0.5;
+    animation: bounce 0.5s infinite;
   }
 
   .scroll-to-top-button:hover {
     background-color: #555;
     opacity: 1;
+    animation: none;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 </style>
 

@@ -7,8 +7,8 @@
     {% endif %}
   {% endfor %}
 >
-  <table class="cart-items" id="upselling-product-table" style="background-color: #90A4AE;">
-    <tbody role="rowgroup">
+  <table class="cart-items" id="upselling-product-table" style="background-color: #607d8bde; padding: 0;">
+    <tbody role="rowgroup" style="overflow: hidden; padding: 0;">
       <tr
         id="CartDrawer-Item-{{ settings.upSelling_product.index | plus: 1 }}"
         class="upselling-cart-item"
@@ -25,7 +25,7 @@
                 loading="lazy"
                 width="150"
                 height="150"
-                style="height:100%;padding:6px 0 6px 0"
+                style="height:100%;padding:6px 0 6px 0; background-color: white;"
               >
             </a>
           {% endif %}
