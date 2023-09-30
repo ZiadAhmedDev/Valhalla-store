@@ -26,11 +26,35 @@
         "enable_language_selector": false
       }
     },
-    "marquee-bar": {
+    "522e4159-a235-41df-b97b-0cf1b8309e8c": {
       "type": "marquee-bar",
       "settings": {
         "text": "NO SHIPPING EXPENSS",
+        "text_2": "NO SHIPPING EXPENSS",
+        "text_3": "NO SHIPPING EXPENSS",
+        "colorBackground": "#000",
+        "colorText": "#fff",
+        "link": "shopify:\/\/collections\/all",
+        "textDirection": "left"
+      }
+    },
+    "a39472a2-f38e-478e-993f-13cd72db53c8": {
+      "type": "marquee-bar",
+      "settings": {
+        "text": "30 Days Refund",
         "text_2": "30 Days Refund",
+        "text_3": "30 Days Refund",
+        "colorBackground": "#000",
+        "colorText": "#fff",
+        "link": "shopify:\/\/collections\/all",
+        "textDirection": "right"
+      }
+    },
+    "c6cff61f-416f-4f1f-bb57-ee082235e9b2": {
+      "type": "marquee-bar",
+      "settings": {
+        "text": "Customer Service 24\/7",
+        "text_2": "Customer Service 24\/7",
         "text_3": "Customer Service 24\/7",
         "colorBackground": "#000",
         "colorText": "#fff",
@@ -59,6 +83,9 @@
   },
   "order": [
     "announcement-bar",
+    "522e4159-a235-41df-b97b-0cf1b8309e8c",
+    "a39472a2-f38e-478e-993f-13cd72db53c8",
+    "c6cff61f-416f-4f1f-bb57-ee082235e9b2",
     "header"
   ]
 }
