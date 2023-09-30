@@ -16,13 +16,16 @@
                 <div class="service-block">
                   <div class="icon-block">
                     <a href="" class="service-icon">
-                      <span class="icon"><i class="fa-solid fa-gift"></i></span>
+                      <span class="icon"><i class="fa-solid fa-truck"></i></span>
                     </a>
                   </div>
                   <div class="service-text">
                     <h6>Free shipping</h6>
 
-                    <p>It is a long established fact that a reader will be distracted by the.. !</p>
+                    <p>
+                      Enjoy the convenience of free shipping on all orders. Shop now and have your favorite fashion
+                      items delivered to your doorstep without extra cost.
+                    </p>
                   </div>
                 </div>
               </li>
@@ -31,13 +34,16 @@
                 <div class="service-block">
                   <div class="icon-block">
                     <a href="" class="service-icon">
-                      <span class="icon"><i class="feather-lock"></i></span>
+                      <span class="icon"><i class="fa-solid fa-lock"></i></span>
                     </a>
                   </div>
                   <div class="service-text">
                     <h6>Secure payment</h6>
 
-                    <p>It is a long established fact that a reader will be distracted by the.. !</p>
+                    <p>
+                      Shop with confidence. Our secure payment options ensure your personal and financial information is
+                      protected, providing peace of mind with every purchase.
+                    </p>
                   </div>
                 </div>
               </li>
@@ -46,13 +52,16 @@
                 <div class="service-block">
                   <div class="icon-block">
                     <a href="" class="service-icon">
-                      <span class="icon"><i class="feather-rotate-ccw"></i></span>
+                      <span class="icon"><i class="fa-solid fa-rotate-left"></i></span>
                     </a>
                   </div>
                   <div class="service-text">
                     <h6>30 Days return</h6>
 
-                    <p>It is a long established fact that a reader will be distracted by the.. !</p>
+                    <p>
+                      Love it or return it within 30 days. We offer hassle-free returns, so you can shop worry-free and
+                      find the perfect style for you.
+                    </p>
                   </div>
                 </div>
               </li>
@@ -61,13 +70,16 @@
                 <div class="service-block">
                   <div class="icon-block">
                     <a href="" class="service-icon">
-                      <span class="icon"><i class="feather-gift"></i></span>
+                      <span class="icon"><i class="fa-solid fa-gift"></i></span>
                     </a>
                   </div>
                   <div class="service-text">
                     <h6>Gift voucher</h6>
 
-                    <p>It is a long established fact that a reader will be distracted by the.. !</p>
+                    <p>
+                      Give the gift of choice with our gift vouchers. Perfect for any occasion, let your loved ones
+                      explore and shop their favorite fashion pieces
+                    </p>
                   </div>
                 </div>
               </li>
@@ -77,153 +89,177 @@
       </div>
     </div>
   </section>
+</div>
 
-  <style>
+<style>
+  .our-service-area {
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+  @media (max-width: 1199px) {
     .our-service-area {
-      padding-top: 100px;
+      padding-top: 80px;
       padding-bottom: 0px;
     }
-    @media (max-width: 1199px) {
-      .our-service-area {
-        padding-top: 80px;
-        padding-bottom: 0px;
-      }
+  }
+  @media (max-width: 767px) {
+    .our-service-area {
+      padding-top: 60px;
+      padding-bottom: 0px;
     }
-    @media (max-width: 767px) {
-      .our-service-area {
-        padding-top: 60px;
-        padding-bottom: 0px;
-      }
-    }
+  }
 
-    .our-service-area .service-main ul.service-wrap {
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: -30px;
+  .our-service-area .service-main ul.service-wrap {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -30px;
 
-      margin-left: -30px;
+    margin-left: -30px;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper {
+    width: calc(25% - 30px);
+    margin-top: 30px;
+
+    margin-left: 30px;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block {
+    text-align: center;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block {
+    position: relative;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    border: 1px dashed #ffebee;
+    z-index: -1;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper:last-child .service-block .icon-block::before {
+    display: none;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block a.service-icon {
+    background-color: #faf8f6;
+    color: rgb(254, 130, 141);
+    width: 80px;
+    height: 80px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 0 auto;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper:hover .service-block .icon-block a.service-icon {
+    background-color: rgb(254, 130, 141);
+    color: #ffffff;
+  }
+  .our-service-area
+    .service-main
+    ul.service-wrap
+    li.service-wrapper
+    .service-block
+    .icon-block
+    a.service-icon
+    span.icon {
+    display: block;
+    line-height: 0;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text {
+    margin-top: 25px;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text h6 {
+    font-size: 18px;
+    font-weight: var(--font-custom-weight-section-header);
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text p {
+    width: 83.33%;
+    margin: 15px auto 0;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block a.service-icon,
+  .our-service-area .service-main ul.service-wrap li.service-wrapper:hover .service-block .icon-block a.service-icon {
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  @media (max-width: 1399px) {
+    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text p {
+      width: 100%;
     }
+  }
+  @media (max-width: 991px) {
     .our-service-area .service-main ul.service-wrap li.service-wrapper {
-      width: calc(25% - 30px);
-      margin-top: 30px;
-
-      margin-left: 30px;
-    }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block {
-      text-align: center;
-    }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block {
-      position: relative;
+      width: calc(50% - 30px);
     }
     .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block::before {
-      content: '';
-      position: absolute;
-      top: 40px;
-      width: 100%;
-      border: 1px dashed #ffebee;
-      z-index: -1;
-    }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper:last-child .service-block .icon-block::before {
       display: none;
     }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block a.service-icon {
-      background-color: #faf8f6;
-      color: rgb(254, 130, 141);
-      width: 80px;
-      height: 80px;
-      font-size: 22px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 100%;
-      margin: 0 auto;
+  }
+  @media (max-width: 767px) {
+    .our-service-area .service-main ul.service-wrap {
+      margin-left: -12px;
     }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper:hover .service-block .icon-block a.service-icon {
-      background-color: rgb(254, 130, 141);
-      color: #ffffff;
-    }
-    .our-service-area
-      .service-main
-      ul.service-wrap
-      li.service-wrapper
-      .service-block
-      .icon-block
-      a.service-icon
-      span.icon {
-      display: block;
-      line-height: 0;
-    }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text {
-      margin-top: 25px;
-    }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text h6 {
-      font-size: 18px;
-      font-weight: var(--font-custom-weight-section-header);
-    }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text p {
-      width: 83.33%;
-      margin: 15px auto 0;
-    }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block a.service-icon,
-    .our-service-area .service-main ul.service-wrap li.service-wrapper:hover .service-block .icon-block a.service-icon {
-      -webkit-transition: all 0.3s ease-in-out 0s;
-      -o-transition: all 0.3s ease-in-out 0s;
-      transition: all 0.3s ease-in-out 0s;
-    }
-    @media (max-width: 1399px) {
-      .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .service-text p {
-        width: 100%;
-      }
-    }
-    @media (max-width: 991px) {
-      .our-service-area .service-main ul.service-wrap li.service-wrapper {
-        width: calc(50% - 30px);
-      }
-      .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block::before {
-        display: none;
-      }
-    }
-    @media (max-width: 767px) {
-      .our-service-area .service-main ul.service-wrap {
-        margin-left: -12px;
-      }
-      .our-service-area .service-main ul.service-wrap li.service-wrapper {
-        width: calc(50% - 12px);
+    .our-service-area .service-main ul.service-wrap li.service-wrapper {
+      width: calc(50% - 12px);
 
-        margin-left: 12px;
-      }
+      margin-left: 12px;
     }
-    @media (max-width: 479px) {
-      .our-service-area .service-main ul.service-wrap li.service-wrapper {
-        width: calc(100% - 12px);
-      }
+  }
+  @media (max-width: 479px) {
+    .our-service-area .service-main ul.service-wrap li.service-wrapper {
+      width: calc(100% - 12px);
     }
-    ,
-    section.our-service-area {
-      background-color: black;
-      padding-bottom: 3rem;
-      position: relative;
-    }
-    section.our-service-area h6,
-    p {
-      color: white;
-    }
-    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block::before {
-      content: '';
-      position: absolute;
-      top: 40px;
-      width: 100%;
-      border: 1px dashed white;
-      z-index: 0;
-    }
-    a.service-icon {
-      position: relative;
-      z-index: 1;
-    }
-  </style>
-</div>
+  }
+  ,
+  section.our-service-area {
+    background-color: black;
+    padding-bottom: 3rem;
+    position: relative;
+  }
+  section.our-service-area h6,
+  p {
+    color: white;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    border: 1px dashed white;
+    z-index: 0;
+  }
+  a.service-icon {
+    position: relative;
+    z-index: 1;
+  }
+</style>
+
+<style>
+  section.our-service-area {
+    background-color: black;
+    padding-bottom: 3rem;
+    position: relative;
+  }
+  section.our-service-area h6,
+  p {
+    color: white;
+  }
+  .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    border: 1px dashed white;
+    z-index: 0;
+  }
+  a.service-icon {
+    position: relative;
+    z-index: 1;
+  }
+</style>
 {% schema %}
 {
   "name": "Our service",
