@@ -134,6 +134,11 @@
         "d8d47680-9bd1-4f96-9d8e-776eb509a262",
         "b63057ed-901b-41f0-ae44-8c108205aa29"
       ],
+      "custom_css": [
+        ".jdgm-rev__icon {background-color: white;}",
+        "div.animate--slide-in {padding: 0;}",
+        "div.shopify-app-block:nth-child(2) > div {background-color: rgb(36,40,51);}"
+      ],
       "settings": {
         "include_margins": true
       }
