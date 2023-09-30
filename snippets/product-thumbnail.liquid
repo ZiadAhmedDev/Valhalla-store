@@ -77,7 +77,7 @@
     {%- endif -%}
   </noscript>
 
-  <modal-opener class="product__modal-opener product__modal-opener--{{ media.media_type }} no-js-hidden" data-modal="#ProductModal-{{ modal_id }}">
+  <modal-opener class="product__modal-opener product__modal-opener--{{ media.media_type }} no-js-hidden" data-modal="#ProductModal-{{ modal_id }} color-inverse ">
     <span class="product__media-icon motion-reduce quick-add-hidden{% if media.media_type == 'image' %} product__media-icon--{{ section.settings.image_zoom }}{% endif %}" aria-hidden="true">
       {%- liquid
         case media.media_type
@@ -101,7 +101,7 @@
         <circle class="path" fill="none" stroke-width="4" cx="33" cy="33" r="30"></circle>
       </svg>
     </div>
-    <div class="product__media media media--transparent">
+    <div class="product__media media color-inverse">
       {{ media.preview_image | image_url: width: 1946 | image_tag:
         class: image_class,
         loading: lazy,
