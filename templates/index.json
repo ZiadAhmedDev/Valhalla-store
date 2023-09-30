@@ -139,6 +139,25 @@
         "padding_bottom": 36
       }
     },
+    "efb4dcfb-f9fb-4263-88cb-8333bf599204": {
+      "type": "video",
+      "custom_css": [
+        "span.deferred-media__poster-button.motion-reduce {background: none; border: none; position: relative; left: 7rem;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/pexels_videos_1704712 (1080p).mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "Fashion Valhalla",
+        "full_width": true,
+        "color_scheme": "accent-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "show_controls": false
+      }
+    },
     "4b04927e-a945-42f5-9a66-0229ccee83b4": {
       "type": "multicolumn",
       "blocks": {
@@ -369,25 +388,6 @@
         "padding_bottom": 52
       }
     },
-    "efb4dcfb-f9fb-4263-88cb-8333bf599204": {
-      "type": "video",
-      "custom_css": [
-        "span.deferred-media__poster-button.motion-reduce {background: none; border: none; position: relative; left: 7rem;}"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/pexels_videos_1704712 (1080p).mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "Fashion Valhalla",
-        "full_width": true,
-        "color_scheme": "accent-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "show_controls": false
-      }
-    },
     "fbd23863-177c-430a-bf63-e22c77c4c0ab": {
       "type": "our-services",
       "blocks": {
@@ -459,12 +459,12 @@
     "image_banner",
     "fa9f171b-5d84-42de-bfff-eae4a5e00645",
     "6d14b2c1-4790-4ecf-9e9f-42009005e331",
+    "efb4dcfb-f9fb-4263-88cb-8333bf599204",
     "4b04927e-a945-42f5-9a66-0229ccee83b4",
     "featured_collection",
     "f96e0404-3a94-4e22-8360-84a3656f2d0a",
     "88701003-d05b-4bc2-8695-d33602b350fd",
     "d5184493-35e2-411c-acb3-4343674a8877",
-    "efb4dcfb-f9fb-4263-88cb-8333bf599204",
     "fbd23863-177c-430a-bf63-e22c77c4c0ab"
   ]
 }

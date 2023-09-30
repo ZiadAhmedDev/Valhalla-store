@@ -35,7 +35,8 @@
         "colorBackground": "#000000",
         "colorText": "#ffffff",
         "link": "shopify:\/\/collections\/all",
-        "textDirection": "left"
+        "textDirection": "left",
+        "color_scheme": "inverse"
       }
     },
     "a39472a2-f38e-478e-993f-13cd72db53c8": {
@@ -47,7 +48,8 @@
         "colorBackground": "#000000",
         "colorText": "#ffffff",
         "link": "shopify:\/\/collections\/all",
-        "textDirection": "right"
+        "textDirection": "right",
+        "color_scheme": "accent-1"
       }
     },
     "header": {
