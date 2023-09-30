@@ -54,6 +54,24 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "5103ea94-db0f-4270-99eb-639933fb92f7": {
+          "type": "CustomNavigation",
+          "settings": {
+            "title": "Item",
+            "links_1_title": "sd",
+            "links_1": "footer",
+            "links_2": "main-menu",
+            "links_3": "footer",
+            "products_title": "Features products",
+            "single_product_1": "esprit-mens-long-sleeve-jacket",
+            "single_product_2": "jack-and-jones-mens-jjorcall-short-parka-coat"
+          }
+        }
+      },
+      "block_order": [
+        "5103ea94-db0f-4270-99eb-639933fb92f7"
+      ],
       "settings": {
         "logo_position": "top-center",
         "menu": "main-menu",
