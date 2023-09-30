@@ -2,11 +2,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "map-location": {
-      "type": "map-location",
-      "settings": {
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -62,10 +57,15 @@
         "padding_top": 32,
         "padding_bottom": 32
       }
+    },
+    "map-location": {
+      "type": "map-location",
+      "settings": {
+      }
     }
   },
   "order": [
-    "map-location",
-    "footer"
+    "footer",
+    "map-location"
   ]
 }
