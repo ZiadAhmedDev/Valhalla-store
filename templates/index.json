@@ -1,5 +1,10 @@
 {
   "sections": {
+    "marquee-bar": {
+      "type": "marquee-bar",
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -464,6 +469,7 @@
     "88701003-d05b-4bc2-8695-d33602b350fd",
     "d5184493-35e2-411c-acb3-4343674a8877",
     "efb4dcfb-f9fb-4263-88cb-8333bf599204",
-    "fbd23863-177c-430a-bf63-e22c77c4c0ab"
+    "fbd23863-177c-430a-bf63-e22c77c4c0ab",
+    "marquee-bar"
   ]
 }

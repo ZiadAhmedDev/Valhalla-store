@@ -2,16 +2,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "marquee-bar":
-    {
-      "type": "marquee-bar",
-      "blocks": {
-
-      },
-      "settings" : {
-
-      }
-    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -65,7 +55,6 @@
   },
   "order": [
     "announcement-bar",
-    "marquee-bar",
     "header"
   ]
 }
