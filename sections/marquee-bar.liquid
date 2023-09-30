@@ -32,12 +32,23 @@
     }
 
    @keyframes marquee {
+   {%- if section.settings.textDirection == 'right' -%}
     0% {
-      transform: translateX({%- if section.settings.textDirection == 'left' -%}80%{%- else -%}-80%{%- endif -%});
+      transform: translateX(-90%);
     }
     100% {
-      transform: translateX({%- if section.settings.textDirection == 'left' -%}-80%{%- else -%}80%{%- endif -%});
+      transform: translateX(90%);
     }
+    {%- else -%}
+    100% {
+      transform: translateX(90%);
+    }
+    0% {
+      transform: translateX(-90%);
+    }
+
+   {%- endif -%}
+
   }
 </style>
 
