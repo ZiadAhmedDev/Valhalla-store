@@ -200,6 +200,28 @@
         width: calc(100% - 12px);
       }
     }
+    ,
+    section.our-service-area {
+      background-color: black;
+      padding-bottom: 3rem;
+      position: relative;
+    }
+    section.our-service-area h6,
+    p {
+      color: white;
+    }
+    .our-service-area .service-main ul.service-wrap li.service-wrapper .service-block .icon-block::before {
+      content: '';
+      position: absolute;
+      top: 40px;
+      width: 100%;
+      border: 1px dashed white;
+      z-index: 0;
+    }
+    a.service-icon {
+      position: relative;
+      z-index: 1;
+    }
   </style>
 </div>
 {% schema %}
