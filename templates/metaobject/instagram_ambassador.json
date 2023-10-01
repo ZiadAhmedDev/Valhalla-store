@@ -21,7 +21,7 @@
             "heading": "{{ metaobject.title.value }}",
             "text": "{{ metaobject.description | metafield_tag }}",
             "button_label": "Instagram Page",
-            "button_link": "{{ metaobject.system.url }}"
+            "button_link": "{{ metaobject.page.value }}"
           }
         }
       },
