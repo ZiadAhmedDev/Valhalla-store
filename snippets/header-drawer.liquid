@@ -121,6 +121,167 @@
                   {%- endif -%}
                 </li>
               {%- endfor -%}
+              {% comment %} a7a {% endcomment %}
+              {%- for block in section.blocks -%}
+                {%- case block.type -%}
+                  {%- when 'CustomNavigation' -%}
+                    {% assign navBlock = block.settings %}
+                    <li>
+                      <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
+                        <summary
+                          id="HeaderDrawer-{{ navBlock.handle }}"
+                          class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if navBlock.child_active %} menu-drawer__menu-item--active{% endif %}"
+                        >
+                          {{ navBlock.title | escape }}
+                          {% render 'icon-arrow' %}
+                          {% render 'icon-caret' %}
+                        </summary>
+                        <div
+                          id="link-{{ link.handle | escape }}"
+                          class="menu-drawer__submenu has-submenu gradient motion-reduce"
+                          tabindex="-1"
+                        >
+                          <div class="menu-drawer__inner-submenu">
+                            <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
+                              {% render 'icon-arrow' %}
+                              {{ nanBlock.title | escape }}
+                            </button>
+                            <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                              {%- if navBlock.links_1 != blank -%}
+                                <li>
+                                  <center>
+                                    <h4 style="background-color: #339999; padding: 10px;">
+                                      {{ navBlock.links_1.title | escape }}
+                                    </h4>
+                                  </center>
+                                  {%- for grandchildlink in navBlock.links_1.links -%}
+                                    <a
+                                      id="HeaderDrawer-{{ navBlock.links_1.handle }}-{{ grandchildlink.handle }}"
+                                      href="{{ grandchildlink.url }}"
+                                      class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
+                                    >
+                                      {{ grandchildlink.title | escape }}
+                                    </a>
+                                  {%- endfor -%}
+                                </li>
+                              {%- endif -%}
+                              {%- if navBlock.links_2 != blank -%}
+                                <li>
+                                  <center>
+                                    <h4 style="background-color: #339999; padding: 10px;">
+                                      {{ navBlock.links_2.title | escape }}
+                                    </h4>
+                                  </center>
+                                  {%- for grandchildlink in navBlock.links_2.links -%}
+                                    <a
+                                      id="HeaderDrawer-{{ navBlock.links_2.handle }}-{{ grandchildlink.handle }}"
+                                      href="{{ grandchildlink.url }}"
+                                      class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
+                                    >
+                                      {{ grandchildlink.title | escape }}
+                                    </a>
+                                  {%- endfor -%}
+                                </li>
+                              {%- endif -%}
+                              {%- if navBlock.links_3 != blank -%}
+                                <li>
+                                  <center>
+                                    <h4 style="background-color: #339999; padding: 10px;">
+                                      {{ navBlock.links_3.title | escape }}
+                                    </h4>
+                                  </center>
+                                  {%- for grandchildlink in navBlock.links_3.links -%}
+                                    <a
+                                      id="HeaderDrawer-{{ navBlock.links_3.handle }}-{{ grandchildlink.handle }}"
+                                      href="{{ grandchildlink.url }}"
+                                      class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
+                                    >
+                                      {{ grandchildlink.title | escape }}
+                                    </a>
+                                  {%- endfor -%}
+                                </li>
+                              {%- endif -%}
+                              <hr class="divider_drawer">
+                              {%- if navBlock.products_title != blank -%}
+                                <li class="products_list">
+                                  <div class="Products_feature">
+                                    <center>
+                                      <h2>{{ navBlock.products_title }}</h2>
+                                    </center>
+                                    <div class="products drawer_products">
+                                      {%- if navBlock.single_product_1 != blank -%}
+                                        <div class="product-1 drawer_product_card">
+                                          <a href="{{ navBlock.single_product_1.url }}" class="drawer-button">
+                                            <div class="product-card">
+                                              <div class="product-image">
+                                                <img
+                                                  src="{{ navBlock.single_product_1.featured_image | img_url: '500' }}"
+                                                  alt="{{ navBlock.single_product_1.title }}"
+                                                >
+                                              </div>
+                                              <div class="product-info">
+                                                <p class="product-title">
+                                                  {{- navBlock.single_product_1.title -}}
+                                                </p>
+                                                <div class="product-prices">
+                                                  <span class="product-price{% if navBlock.single_product_1.compare_at_price > navBlock.single_product_1.price %} on-sale{% endif %}">
+                                                    {{ navBlock.single_product_1.price | money }}
+                                                  </span>
+                                                  {% if navBlock.single_product_1.compare_at_price
+                                                      > navBlock.single_product_1.price
+                                                  %}
+                                                    <span class="product-compare-price">
+                                                      {{- navBlock.single_product_1.compare_at_price | money -}}
+                                                    </span>
+                                                  {% endif %}
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      {%- endif -%}
+                                      {%- if navBlock.single_product_2 != blank -%}
+                                        <div class="product-2 drawer_product_card">
+                                          <a href="{{ navBlock.single_product_2.url }}" class="drawer-button">
+                                            <div class="product-card">
+                                              <div class="product-image">
+                                                <img
+                                                  src="{{ navBlock.single_product_2.featured_image | img_url: '500' }}"
+                                                  alt="{{ navBlock.single_product_2.title }}"
+                                                >
+                                              </div>
+                                              <div class="product-info">
+                                                <p class="product-title">
+                                                  {{- navBlock.single_product_2.title -}}
+                                                </p>
+                                                <div class="product-prices">
+                                                  <span class="product-price{% if navBlock.single_product_2.compare_at_price > navBlock.single_product_2.price %} on-sale{% endif %}">
+                                                    {{ navBlock.single_product_2.price | money }}
+                                                  </span>
+                                                  {% if navBlock.single_product_2.compare_at_price
+                                                      > navBlock.single_product_2.price
+                                                  %}
+                                                    <span class="product-compare-price">
+                                                      {{- navBlock.single_product_2.compare_at_price | money -}}
+                                                    </span>
+                                                  {% endif %}
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      {%- endif -%}
+                                    </div>
+                                  </div>
+                                </li>
+                              {%- endif -%}
+                            </ul>
+                          </div>
+                        </div>
+                      </details>
+                    </li>
+                {% endcase %}
+              {%- endfor -%}
             </ul>
           </nav>
           <div class="menu-drawer__utility-links">
@@ -309,3 +470,34 @@
     </div>
   </details>
 </header-drawer>
+
+<style>
+  hr.divider_drawer {
+    height: 2px;
+    width: 70%;
+    background-color: white;
+    margin: 10px 30px;
+    position: relative;
+    left: 9%;
+  }
+  div.drawer_products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 10px;
+  }
+  div.drawer_product_card {
+    flex: 1;
+    background-color: #242833;
+    border-radius: 10px;
+    position: relative;
+    width: 35rem;
+    padding: 15px;
+  }
+  a.drawer-button {
+    text-decoration: none;
+    color: white;
+  }
+</style>
