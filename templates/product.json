@@ -97,8 +97,7 @@
         "f6df46e2-5de5-4b78-9803-0ef5aa705249"
       ],
       "custom_css": [
-        "iframe {max-width: 100%; height: 30rem; display: block; margin: 20px 0; \/* Add margin for spacing *\/ border: none; \/* Remove iframe border *\/}",
-        "div[data-number-of-reviews=\"0\"] {display: none !important;}"
+        "iframe {max-width: 100%; height: 30rem; display: block; margin: 20px 0; \/* Add margin for spacing *\/ border: none; \/* Remove iframe border *\/}"
       ],
       "settings": {
         "color_scheme": "accent-1",
