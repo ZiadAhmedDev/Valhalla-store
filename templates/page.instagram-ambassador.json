@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h1 {margin: auto; display: block; width: fit-content; text-align:center;}"
+        "h1 {margin: auto; display: block; width: fit-content; text-align: center;}"
       ],
       "settings": {
         "color_scheme": "accent-1",
@@ -49,7 +49,7 @@
     "53c9a7c1-1202-4387-a311-391169905901": {
       "type": "contact-form",
       "custom_css": [
-        "h2 {margin: auto; display: block; width: fit-content; margin-bottom: 2rem;}",
+        "h2 {margin: auto; display: block; width: fit-content; margin-bottom: 2rem; text-align:center;}",
         "button {margin: auto; display: block; width: fit-content;}"
       ],
       "settings": {
