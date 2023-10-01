@@ -72,6 +72,9 @@
       "block_order": [
         "5103ea94-db0f-4270-99eb-639933fb92f7"
       ],
+      "custom_css": [
+        "div.Products_feature h2{padding-top:10px;}"
+      ],
       "settings": {
         "logo_position": "top-center",
         "menu": "main-menu",
