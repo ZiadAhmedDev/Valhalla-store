@@ -2,6 +2,10 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        "h1 {text-align: center;}",
+        "div.collection-hero__description {width: fit-content; margin:0 auto 10px;}"
+      ],
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -11,7 +15,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        "select[name=\"sort_by\"] option {color:black}"
+        "select[name=\"sort_by\"] option {color: black;}"
       ],
       "settings": {
         "color_scheme": "accent-1",
