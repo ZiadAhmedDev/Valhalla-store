@@ -137,7 +137,8 @@
       "custom_css": [
         ".jdgm-rev__icon {background-color: white;}",
         "div.animate--slide-in {padding: 0;}",
-        "div.shopify-app-block:nth-child(2) > div {background-color: rgb(36,40,51);}"
+        "div.shopify-app-block:nth-child(2) > div {background-color: rgb(36, 40, 51);}",
+        "select.jdgm-sort-dropdown option {background-color: black;}"
       ],
       "settings": {
         "include_margins": true
