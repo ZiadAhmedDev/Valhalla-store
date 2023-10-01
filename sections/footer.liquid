@@ -25,6 +25,16 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  @media screen and (max-width: 750px) {
+    div.footer-block.footer-block--menu {
+      text-align: center;
+      padding:0 !important;
+    }
+    a.link--text.list-menu__item
+    {
+      display: block;
+    }
+  }
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
@@ -241,7 +251,7 @@
 
           {%- if section.settings.show_social and has_social_icons -%}
             <div class="footer__list-social">
-              <p>Feel free to share your social media links:</p>
+              <p style="text-align: center;">Feel free to share your social media links:</p>
               {%- render 'social-icons', class: 'footer__list-social' -%}
             </div>
           {%- endif -%}

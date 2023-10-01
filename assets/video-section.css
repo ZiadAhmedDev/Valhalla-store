@@ -49,10 +49,12 @@
 
 
 /* Redesign play button */
+@media screen and (min-width: 920px) {
+  span.deferred-media__poster-button.motion-reduce {
+    background: none;
+    border: none;
+    position: relative;
+    left: 7rem;
+  }
 
-span.deferred-media__poster-button.motion-reduce {
-  background: none;
-  border: none;
-  position: relative;
-  left: 7rem;
 }
