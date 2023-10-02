@@ -7,6 +7,8 @@ class CartDrawer extends HTMLElement {
     this.setHeaderCartIconAccessibility();
   }
 
+
+
   setHeaderCartIconAccessibility() {
     const cartLink = document.querySelector('#cart-icon-bubble');
     cartLink.setAttribute('role', 'button');
@@ -26,10 +28,15 @@ class CartDrawer extends HTMLElement {
   open(triggeredBy) {
     if (triggeredBy) this.setActiveElement(triggeredBy);
     const cartDrawerNote = this.querySelector('[id^="Details-"] summary');
+    const arrowUp = document.getElementById('scrollToTop');
+    if (arrowUp) {
+      arrowUp.style.display = 'none';
+    }
     if (cartDrawerNote && !cartDrawerNote.hasAttribute('role')) this.setSummaryAccessibility(cartDrawerNote);
     // here the animation doesn't seem to always get triggered. A timeout seem to help
     setTimeout(() => {
       this.classList.add('animate', 'active');
+
     });
 
     this.addEventListener(

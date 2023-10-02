@@ -16,6 +16,7 @@
       border-radius: 6px !important;
       width: fit-content !important;
       padding: 10px 0 !important;
+      z-index: 1;
     }
     div.notificationDiv {
       display: flex;
@@ -82,7 +83,7 @@
               avatar: "{{ product.featured_image | image_url: width:600 }}",
               text: notificationText,
               destination: "{{ product.url }}",
-              duration: 3000,
+              duration: 300000,
               newWindow: false,
               close: true,
               style: {
