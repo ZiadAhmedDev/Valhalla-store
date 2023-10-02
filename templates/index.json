@@ -318,16 +318,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/alexander-shatov-71Qk8ODIBko-unsplash.jpg",
             "heading": "Instagram<strong> Ambassador<\/strong>",
-            "heading_size": "h2",
-            "subheading": "Tell your brand's story through images",
+            "heading_size": "h1",
+            "subheading": "Our famous representatives",
             "button_label": "Show Them",
             "link": "shopify:\/\/pages\/instagram-ambassador",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "bottom-center",
             "show_text_box": true,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-1",
+            "image_overlay_opacity": 10,
+            "color_scheme": "inverse",
             "text_alignment_mobile": "center"
           }
         }
