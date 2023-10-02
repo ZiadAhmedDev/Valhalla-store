@@ -27,7 +27,7 @@
         "button"
       ],
       "custom_css": [
-        "@media(max-width: 767px) {.media>*:not(.zoom):not(.deferred-media__poster-button), .media model-viewer {display: block; max-width: 100%; position: absolute; top: 0; left: 0; height: 100%; width: 100%;}.media>img {object-fit: cover; object-position: center center; transition: opacity .4s cubic-bezier(.25,.46,.45,.94);}}"
+        "@media (max-width: 767px) {.media > *:not(.zoom):not(.deferred-media__poster-button), .media model-viewer {display: block; max-width: 100%; position: absolute; top: 0; left: 0; height: 100%; width: 100%; } .media > img {object-fit: cover; object-position: center center; transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/luke-porter-rg1Z9NtEa80-unsplash.jpg",
@@ -456,15 +456,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "46a3cf18-f3e3-4f1c-bcef-65059517bc62": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<form method=\"post\" action=\"\/cart\/add\">\n\n  <input type=\"hidden\" name=\"id\" value=\"{{ product.variants.first.id }}\" \/>\n\n  <input min=\"1\" type=\"number\" id=\"quantity\" name=\"quantity\" value=\"1\"\/>\n\n  <input type=\"submit\" value=\"Add to cart\" class=\"btn\" \/>\n\n<\/form>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -477,7 +468,6 @@
     "f96e0404-3a94-4e22-8360-84a3656f2d0a",
     "88701003-d05b-4bc2-8695-d33602b350fd",
     "fbd23863-177c-430a-bf63-e22c77c4c0ab",
-    "d5184493-35e2-411c-acb3-4343674a8877",
-    "46a3cf18-f3e3-4f1c-bcef-65059517bc62"
+    "d5184493-35e2-411c-acb3-4343674a8877"
   ]
 }
