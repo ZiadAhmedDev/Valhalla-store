@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Welcome aboard.",
             "heading_size": "h0"
           }
         },
@@ -28,7 +28,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/luke-porter-rg1Z9NtEa80-unsplash.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
