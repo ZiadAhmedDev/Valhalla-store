@@ -456,6 +456,32 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "149cd5fa-993e-40e1-8554-5774044cab7e": {
+      "type": "flash-sales",
+      "settings": {
+        "section_padding_top": 100,
+        "section_padding_bottom": 100,
+        "section_padding_top_lg": 80,
+        "section_padding_bottom_lg": 80,
+        "section_padding_top_xs": 60,
+        "section_padding_bottom_xs": 60,
+        "section_bg_color_enable": false,
+        "section_bg_color": "#ffffff",
+        "section_bg_img_enable": true,
+        "section_bg_img": "shopify:\/\/shop_images\/774e06f680e3e557a04396253d443d84.jpg",
+        "section_subtitle": "Weekly big sale !",
+        "section_title": "The Sale End in",
+        "deal_banner_date": "17",
+        "deal_banner_month": "dec",
+        "deal_banner_year": "2023",
+        "deal_banner_day_title": "Day",
+        "deal_banner_hour_title": "Hrs",
+        "deal_banner_minute_title": "Min",
+        "deal_banner_second_title": "Sec",
+        "section_btn_text": "Order now",
+        "section_btn_url": ""
+      }
     }
   },
   "order": [
@@ -468,6 +494,7 @@
     "f96e0404-3a94-4e22-8360-84a3656f2d0a",
     "88701003-d05b-4bc2-8695-d33602b350fd",
     "fbd23863-177c-430a-bf63-e22c77c4c0ab",
-    "d5184493-35e2-411c-acb3-4343674a8877"
+    "d5184493-35e2-411c-acb3-4343674a8877",
+    "149cd5fa-993e-40e1-8554-5774044cab7e"
   ]
 }
