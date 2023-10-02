@@ -15,8 +15,30 @@
       flex-direction: row-reverse;
       border-radius: 6px !important;
       width: fit-content !important;
+      padding: 10px 0 !important;
     }
-
+    div.notificationDiv {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      margin: 0;
+    }
+    div.notificationDiv p {
+      margin: 0;
+    }
+    @media (max-width: 767px) {
+      div.toastify {
+        display: flex !important;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        border-radius: 6px !important;
+        width: fit-content !important;
+        padding: 10px 0 !important;
+        align-items: center !important;
+        text-align: center !important;
+      }
+    }
     img.toastify-avatar {
       width: 7.5rem !important;
       height: 7.5rem !important;
@@ -24,7 +46,7 @@
     }
 
     .toast-close {
-      color: black !important;
+      color: white !important;
     }
   </style>
 
@@ -54,7 +76,7 @@
           {% assign varName = product.handle | truncate: 8, "" | replace: "-", "_" %}
 
             // Construct the notification text with the title and price on separate lines
-            var notificationText = "Someone bought {{ product.title | escape | truncate: 25, "" }}<br>{{ product.price | money }}";
+            var notificationText = "<div class='notificationDiv'><p> Someone bought: {{ product.title | escape | truncate: 20, "" }}</p><p>{{ product.price | money }}</p></div>";
 
             toastifyInstances["{{ varName }}"] = Toastify({
               avatar: "{{ product.featured_image | image_url: width:600 }}",
@@ -64,9 +86,9 @@
               newWindow: false,
               close: true,
               style: {
-                color: "black",
-                background: "white", // Use the background property
-                width: "400",
+                color: "white",
+                background: "grey", // Use the background property
+                width: "300",
               },
               gravity: "bottom",
               position: "left",
