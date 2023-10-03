@@ -8,7 +8,7 @@
         "promote_free_shipping_txt": "",
         "unlocked_free_shipping_txt": "",
         "free_shipping_threshold": 100,
-        "color_scheme": ""
+        "color_scheme": "inverse"
       }
     },
     "announcement-bar": {
