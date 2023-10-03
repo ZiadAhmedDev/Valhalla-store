@@ -2,6 +2,15 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "1cecaf51-0c5d-47cf-b26f-4a479ad985d5": {
+      "type": "free-shipping-bar",
+      "settings": {
+        "promote_free_shipping_txt": "",
+        "unlocked_free_shipping_txt": "",
+        "free_shipping_threshold": 100,
+        "color_scheme": ""
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -73,7 +82,7 @@
         "45f29a8a-eeae-45a8-8001-6b2a929a4cd6"
       ],
       "custom_css": [
-        "div.Products_feature h2 {margin-top: 5px; margin-bottom: 2px; color: #F44336;}"
+        "div.Products_feature h2 {margin-top: 5px; margin-bottom: 2px; color: #f44336;}"
       ],
       "settings": {
         "logo_position": "top-center",
@@ -93,6 +102,7 @@
     }
   },
   "order": [
+    "1cecaf51-0c5d-47cf-b26f-4a479ad985d5",
     "announcement-bar",
     "522e4159-a235-41df-b97b-0cf1b8309e8c",
     "a39472a2-f38e-478e-993f-13cd72db53c8",
