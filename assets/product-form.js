@@ -108,9 +108,9 @@ if (!customElements.get('product-form')) {
         let value_left = threshold / 100 - cart.total_price /100;
         let formattedNumber = value_left.toLocaleString('en-US', { useGrouping: true });
         if (Math.floor(value_left) <= 0){
-            bar.innerHTML = '<p class="free-shipping-bar_message"  >' + unlocked_txt + '</p>';
+            bar.innerHTML = '<p class="free-shipping-bar_message unlocked_shipping"  >' + unlocked_txt + '</p>';
           }else{
-            bar.innerHTML = '<p class="free-shipping-bar_message">'+ promote_txt.replace('[value]' , cart.currency + formattedNumber) + '</p>';
+            bar.innerHTML = '<p class="free-shipping-bar_message promote_shipping">'+ promote_txt.replace('[value]' , cart.currency + formattedNumber) + '</p>';
         }
       }
     );

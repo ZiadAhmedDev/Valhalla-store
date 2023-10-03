@@ -3524,3 +3524,7 @@ details-disclosure > details {
     letter-spacing: 0.1rem;
     min-height: 3.8rem;
   }
+  p.unlocked_shipping
+  {
+    color:green !important;
+  }
