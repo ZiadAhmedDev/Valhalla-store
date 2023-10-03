@@ -4,6 +4,9 @@
   "sections": {
     "1cecaf51-0c5d-47cf-b26f-4a479ad985d5": {
       "type": "free-shipping-bar",
+      "custom_css": [
+        ".free-shipping-bar_message p{margin:10px 0;}"
+      ],
       "settings": {
         "promote_free_shipping_txt": "Add another [value] to get free shipping",
         "unlocked_free_shipping_txt": "Cognate, you now have a free shipping!!",
