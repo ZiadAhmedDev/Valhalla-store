@@ -73,7 +73,7 @@
         "45f29a8a-eeae-45a8-8001-6b2a929a4cd6"
       ],
       "custom_css": [
-        "div.Products_feature h2 {margin-top: 5px;}"
+        "div.Products_feature h2 {margin-top: 5px; margin-bottom: 2px;}"
       ],
       "settings": {
         "logo_position": "top-center",
