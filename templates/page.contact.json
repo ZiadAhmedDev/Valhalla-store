@@ -20,10 +20,92 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "ca189de0-0e1e-4f42-a9a7-4a734f16b55b": {
+      "type": "custom-contact-form",
+      "blocks": {
+        "template--21336405475639__ca189de0-0e1e-4f42-a9a7-4a734f16b55b-input-name-1": {
+          "type": "input-name",
+          "settings": {
+          }
+        },
+        "template--21336405475639__ca189de0-0e1e-4f42-a9a7-4a734f16b55b-input-email-1": {
+          "type": "input-email",
+          "settings": {
+          }
+        },
+        "5b90fb9d-e490-4cfc-9684-f9e9d8d32a15": {
+          "type": "input-phone",
+          "settings": {
+          }
+        },
+        "324bda0b-ed8c-4f29-aab3-4a3934ee9e4d": {
+          "type": "input-gender",
+          "settings": {
+          }
+        },
+        "9d2e6120-b5e6-4e6e-b55e-57b0d1afee7f": {
+          "type": "input-country",
+          "settings": {
+          }
+        },
+        "47ed16b4-6288-40ff-ad9a-c755594754d2": {
+          "type": "input-address",
+          "settings": {
+          }
+        },
+        "9b56b849-7193-49a2-954b-3bacc2ad0686": {
+          "type": "input-age",
+          "settings": {
+          }
+        },
+        "79ebaa42-9362-4290-b189-b265011fc910": {
+          "type": "input-concern",
+          "settings": {
+          }
+        },
+        "78b3bad6-95b1-4d1d-a700-c0e0f5f84987": {
+          "type": "input-message",
+          "settings": {
+          }
+        },
+        "f96b6f51-0828-47bb-bc5b-0798f1d71243": {
+          "type": "input-know_us",
+          "settings": {
+          }
+        },
+        "9c46e31e-e802-4693-ad09-03a52256d236": {
+          "type": "input-agree",
+          "settings": {
+            "terms": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21336405475639__ca189de0-0e1e-4f42-a9a7-4a734f16b55b-input-name-1",
+        "template--21336405475639__ca189de0-0e1e-4f42-a9a7-4a734f16b55b-input-email-1",
+        "5b90fb9d-e490-4cfc-9684-f9e9d8d32a15",
+        "324bda0b-ed8c-4f29-aab3-4a3934ee9e4d",
+        "9d2e6120-b5e6-4e6e-b55e-57b0d1afee7f",
+        "47ed16b4-6288-40ff-ad9a-c755594754d2",
+        "9b56b849-7193-49a2-954b-3bacc2ad0686",
+        "79ebaa42-9362-4290-b189-b265011fc910",
+        "78b3bad6-95b1-4d1d-a700-c0e0f5f84987",
+        "f96b6f51-0828-47bb-bc5b-0798f1d71243",
+        "9c46e31e-e802-4693-ad09-03a52256d236"
+      ],
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "ca189de0-0e1e-4f42-a9a7-4a734f16b55b"
   ]
 }
