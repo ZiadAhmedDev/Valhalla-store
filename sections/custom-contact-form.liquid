@@ -22,6 +22,10 @@
   cursor: not-allowed;
   border:none /* Change the cursor style */
 }
+.contact__button
+{
+  text-align:center;
+}
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -422,7 +426,7 @@
       "name": "Terms of Service",
       "settings": [
         {
-          "type": "page",
+          "type": "url",
           "id": "terms",
           "label": "Terms of Service"
         }
