@@ -1,0 +1,60 @@
+<style></style>
+
+{% assign promote_txt = section.settings.promote_free_shipping_txt | escape %}
+{% assign unlocked_txt = section.settings.unlocked_free_shipping_txt | escape %}
+{% assign threshold = section.settings.free_shipping_threshold | times: 100 %}
+{% assign value_left = threshold | minus: cart.total_price %}
+{% assign value_left_money = value_left | money %}
+<div
+  class="free-shipping-bar color-{{ section.settings.color_scheme }}"
+  data-promote="{{promote_txt}}"
+  data-unlocked="{{unlocked_txt}}"
+  data-threshold="{{threshold}}"
+  data-promote_money="{{ promote_txt | replace: '[value]', value_left_money }}"
+>
+  {% if value_left <= 0 %}
+    <p class="free-shipping-bar_message h5">
+      <span>{{ unlocked_txt }}</span>
+    </p>
+  {% else %}
+    <p
+      class="free-shipping-bar_message h5"
+    >
+      <span>{{ promote_txt | replace: '[value]', value_left_money }}</span>
+    </p>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Free Shipping Bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "promote_free_shipping_txt",
+      "label": "Promote free shipping message"
+    },
+    {
+      "type": "text",
+      "id": "unlocked_free_shipping_txt",
+      "label": "Unlocked free shipping message"
+    },
+    {
+      "type": "number",
+      "id": "free_shipping_threshold",
+      "label": "Threshold for free shipping",
+      "default": 100
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Free Shipping"
+    }
+  ]
+}
+{% endschema %}

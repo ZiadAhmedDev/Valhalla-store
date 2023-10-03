@@ -14,6 +14,7 @@ if (!customElements.get('product-form')) {
         if (document.querySelector('cart-drawer')) this.submitButton.setAttribute('aria-haspopup', 'dialog');
 
         this.hideErrors = this.dataset.hideErrors === 'true';
+        this.updating();
       }
 
       onSubmitHandler(evt) {
@@ -40,7 +41,6 @@ if (!customElements.get('product-form')) {
           this.cart.setActiveElement(document.activeElement);
         }
         config.body = formData;
-
         fetch(`${routes.cart_add_url}`, config)
           .then((response) => response.json())
           .then((response) => {
@@ -94,6 +94,29 @@ if (!customElements.get('product-form')) {
             this.querySelector('.loading-overlay__spinner').classList.add('hidden');
           });
       }
+
+  updating () {
+  let bar = document.querySelector('.free-shipping-bar');
+  let promote_txt = bar.dataset.promote;
+  let unlocked_txt = bar.dataset.unlocked;
+  let threshold =  parseInt(bar.dataset.threshold);
+  function update(){
+    fetch('/cart.js').then(function(response) {
+  return response.json();
+}).then(
+      function(cart) {
+        let value_left = threshold / 100 - cart.total_price /100;
+        let formattedNumber = value_left.toLocaleString('en-US', { useGrouping: true });
+        if (Math.floor(value_left) <= 0){
+            bar.innerHTML = '<p class="free-shipping-bar_message"  >' + unlocked_txt + '</p>';
+          }else{
+            bar.innerHTML = '<p class="free-shipping-bar_message">'+ promote_txt.replace('[value]' , cart.currency + formattedNumber) + '</p>';
+        }
+      }
+    );
+  }
+  update();
+}
 
       handleErrorMessage(errorMessage = false) {
         if (this.hideErrors) return;

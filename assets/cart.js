@@ -23,6 +23,8 @@ class CartItems extends HTMLElement {
     }, ON_CHANGE_DEBOUNCE_TIMER);
 
     this.addEventListener('change', debouncedOnChange.bind(this));
+    this.updating();
+
   }
 
   cartUpdateUnsubscriber = undefined;
@@ -33,6 +35,7 @@ class CartItems extends HTMLElement {
         return;
       }
       this.onCartUpdate();
+
     });
   }
 
@@ -41,9 +44,33 @@ class CartItems extends HTMLElement {
       this.cartUpdateUnsubscriber();
     }
   }
+updating () {
+  let bar = document.querySelector('.free-shipping-bar');
+  let promote_txt = bar.dataset.promote;
+  let unlocked_txt = bar.dataset.unlocked;
+  let threshold =  parseInt(bar.dataset.threshold);
+  function update(){
+    fetch('/cart.js').then(function(response) {
+  return response.json();
+}).then(
+      function(cart) {
+        let value_left = threshold / 100 - cart.total_price /100;
+        let formattedNumber = value_left.toLocaleString('en-US', { useGrouping: true });
+        if (Math.floor(value_left) <= 0){
+            bar.innerHTML = '<p class="free-shipping-bar_message">' + unlocked_txt + '</p>';
+          }else{
+            bar.innerHTML = '<p class="free-shipping-bar_message">'+ promote_txt.replace('[value]' , cart.currency + formattedNumber) + '</p>';
+        }
+      }
+    );
+  }
+  update();
+}
+
 
   onChange(event) {
     this.updateQuantity(event.target.dataset.index, event.target.value, document.activeElement.getAttribute('name'), event.target.dataset.quantityVariantId);
+            // console.log('a7a');
   }
 
   onCartUpdate() {
@@ -60,10 +87,13 @@ class CartItems extends HTMLElement {
               targetElement.replaceWith(sourceElement);
             }
           }
+                      console.log('a7a gadeen');
+
         })
         .catch((e) => {
           console.error(e);
         });
+
     } else {
       fetch(`${routes.cart_url}?section_id=main-cart-items`)
         .then((response) => response.text())
@@ -71,12 +101,17 @@ class CartItems extends HTMLElement {
           const html = new DOMParser().parseFromString(responseText, 'text/html');
           const sourceQty = html.querySelector('cart-items');
           this.innerHTML = sourceQty.innerHTML;
+              console.log('a7a gadeen');
+
         })
         .catch((e) => {
           console.error(e);
         });
     }
   }
+
+
+
 
   getSectionsToRender() {
     return [

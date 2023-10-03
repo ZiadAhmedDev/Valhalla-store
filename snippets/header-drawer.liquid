@@ -206,7 +206,7 @@
                                 <li class="products_list">
                                   <div class="Products_feature">
                                     <center>
-                                      <h2>{{ navBlock.products_title }}</h2>
+                                      <h2 class="Products_feature_title">{{ navBlock.products_title }}</h2>
                                     </center>
                                     <div class="products drawer_products">
                                       {%- if navBlock.single_product_1 != blank -%}
@@ -499,5 +499,8 @@
   a.drawer-button {
     text-decoration: none;
     color: white;
+  }
+  h2.Products_feature_title {
+    margin-bottom: 2px;
   }
 </style>
