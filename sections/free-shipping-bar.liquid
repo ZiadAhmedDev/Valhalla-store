@@ -1,4 +1,17 @@
-<style></style>
+<style>
+  .free-shipping-bar {
+    display: block;
+    height: 100%;
+    padding: 1px;
+    text-align: center;
+  }
+  .free-shipping-bar__message p {
+    text-align: center;
+    margin: 2px;
+    letter-spacing: 0.1rem;
+    min-height: 3.8rem;
+  }
+</style>
 
 {% assign promote_txt = section.settings.promote_free_shipping_txt | escape %}
 {% assign unlocked_txt = section.settings.unlocked_free_shipping_txt | escape %}

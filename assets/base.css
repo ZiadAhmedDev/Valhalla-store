@@ -3512,15 +3512,4 @@ details-disclosure > details {
   }
 }
 
-.free-shipping-bar {
-    display: block;
-    height: 100%;
-    padding: 1px;
-    text-align: center;
-  }
-  .free-shipping-bar__message {
-    text-align: center;
-    margin: 2px;
-    letter-spacing: 0.1rem;
-    min-height: 3.8rem;
-  }
+
