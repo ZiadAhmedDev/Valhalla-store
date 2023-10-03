@@ -68,7 +68,7 @@
         "9c46e31e-e802-4693-ad09-03a52256d236": {
           "type": "input-agree",
           "settings": {
-            "terms": ""
+            "terms": "shopify:\/\/policies\/terms-of-service"
           }
         }
       },
