@@ -5,9 +5,9 @@
     "1cecaf51-0c5d-47cf-b26f-4a479ad985d5": {
       "type": "free-shipping-bar",
       "settings": {
-        "promote_free_shipping_txt": "",
-        "unlocked_free_shipping_txt": "",
-        "free_shipping_threshold": 100,
+        "promote_free_shipping_txt": "Add another [value] to get free shipping",
+        "unlocked_free_shipping_txt": "Cognate, you now have a free shipping!!",
+        "free_shipping_threshold": 2500,
         "color_scheme": "inverse"
       }
     },
