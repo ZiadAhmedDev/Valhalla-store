@@ -17,7 +17,7 @@
         bottom: 6px;
         white-space: nowrap;
         will-change: transform;
-        animation: marquee 30s linear infinite alternate;
+        animation: marquee 35s linear infinite alternate;
         backface-visibility: hidden;
 
       }
@@ -32,10 +32,10 @@
 
    @keyframes marquee {
     0% {
-      transform: translateX({%- if section.settings.textDirection == 'left' -%}100%{%- else -%}-100%{%- endif -%});
+      transform: translateX({%- if section.settings.textDirection == 'left' -%}55%{%- else -%}-55%{%- endif -%});
     }
     100% {
-      transform: translateX({%- if section.settings.textDirection == 'left' -%}-100%{%- else -%}100%{%- endif -%});
+      transform: translateX({%- if section.settings.textDirection == 'left' -%}-55%{%- else -%}55%{%- endif -%});
     }
   }
 </style>
