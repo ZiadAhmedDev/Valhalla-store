@@ -1,0 +1,181 @@
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .wishlist-container .product-card {
+    width: 100%;
+    height: 100%;
+    /* Add any additional styling for the cards... */
+  }
+  .wishlist-container .product-card .product-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    width: 12rem;
+  }
+  .wishlist-container .product-image {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+  }
+  .wishlist-container li.wishlist-product-list {
+    margin: 2rem;
+  }
+  .wishlist-container .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(25% - 20px), 1fr));
+    gap: 20px;
+  }
+
+  @media (max-width: 767px) {
+    .wishlist-container .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(33.33%, 1fr));
+      gap: 20px;
+    }
+    .wishlist-container .product-card .product-image img {
+      width: 8rem;
+    }
+  }
+</style>
+
+<div id="wishlist-container" class="wishlist-container">
+  <div class="product-item">
+    <ul
+      id="Slider-{{ section.id }}"
+      class="list-unstyled custom_list_item"
+      role="list"
+      aria-label="{{ 'general.slider.name' | t }}"
+    >
+      <li class="products_list wishlist-product-list grid-container">
+        <div class="Products_feature">
+          <center>
+            <h1 style="color:rgb(40, 143, 40)">Your Favorite Products</h1>
+          </center>
+          <div class="products"></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<script>
+  const wishlistContainer = document.getElementById('wishlist-container');
+  const productList = JSON.parse(localStorage.getItem('wishlist'));
+  console.log('Product List (before sorting):', productList);
+
+  // Sort the product list to ensure consistent order
+  productList.sort();
+
+  console.log('Product List (after sorting):', productList);
+
+  // Get the existing div with class "products"
+  const productsDiv = wishlistContainer.querySelector('.products');
+
+  // Check if the wishlist is empty
+  if (productList.length === 0) {
+    const emptyWishlistMessage = document.createElement('h1');
+    emptyWishlistMessage.textContent = 'Your wishlist is empty';
+    emptyWishlistMessage.style.color = 'rgb(40, 143, 40)';
+    productsDiv.appendChild(emptyWishlistMessage);
+  } else {
+    // Create an array to store all fetch promises
+    const fetchPromises = [];
+
+    // Loop through the sorted product URLs in the wishlist
+    productList.forEach((product) => {
+      // Create a fetch promise for each product
+      const fetchPromise = fetch(`/products/${product}.json`).then((response) => response.json());
+
+      fetchPromises.push(fetchPromise);
+    });
+
+    // Wait for all fetch promises to complete
+    Promise.all(fetchPromises).then((productDataArray) => {
+      // Loop through the fetched product data
+      productDataArray.forEach((productData) => {
+        const productCardDiv = document.createElement('div');
+        productCardDiv.classList.add('product-1', 'product_card');
+
+        const productLink = document.createElement('a');
+        productLink.href = `/products/${productData.product.handle}`;
+        productLink.classList.add('drawer-button');
+
+        const productCard = document.createElement('div');
+        productCard.classList.add('product-card');
+
+        const productImageDiv = document.createElement('div');
+        productImageDiv.classList.add('product-image');
+
+        const productImage = document.createElement('img');
+        productImage.src = productData.product.images[0].src;
+        productImage.alt = productData.product.title;
+
+        const productInfoDiv = document.createElement('div');
+        productInfoDiv.classList.add('product-info');
+
+        const productTitle = document.createElement('p');
+        productTitle.classList.add('product-title');
+        productTitle.textContent = truncateText(productData.product.title, 25);
+
+        function truncateText(text, maxLength) {
+          if (text.length > maxLength) {
+            return text.substring(0, maxLength) + '...';
+          }
+          return text;
+        }
+        const productPricesDiv = document.createElement('div');
+        productPricesDiv.classList.add('product-prices');
+
+        const productPrice = document.createElement('span');
+        productPrice.classList.add('product-price', 'on-sale');
+        const price = parseFloat(productData.product.variants[0].compare_at_price);
+        const comparePrice = parseFloat(productData.product.variants[0].price);
+
+        if (!isNaN(comparePrice)) {
+          // Display the price and compared_price when compared_price is defined
+          productPrice.textContent = productData.product.variants[0].compare_at_price;
+          productPricesDiv.appendChild(productPrice);
+
+          const productComparePrice = document.createElement('span');
+          productComparePrice.classList.add('product-compare-price');
+          productComparePrice.textContent = productData.product.variants[0].price;
+          productPricesDiv.appendChild(productComparePrice);
+        } else {
+          // Display only the price when compared_price is not defined
+          productPrice.textContent = productData.product.variants[0].compare_at_price;
+          productPricesDiv.appendChild(productPrice);
+        }
+
+        // Append elements to their respective parents
+        productImageDiv.appendChild(productImage);
+        productInfoDiv.appendChild(productTitle);
+        productCard.appendChild(productImageDiv);
+        productCard.appendChild(productInfoDiv);
+        productCard.appendChild(productPricesDiv);
+        productLink.appendChild(productCard);
+        productCardDiv.appendChild(productLink);
+
+        // Append the product card div to the existing "products" div
+        productsDiv.appendChild(productCardDiv);
+      });
+    });
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Wishlist",
+  "tag": "section",
+  "class": "section",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Wishlist",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

@@ -3,7 +3,7 @@
   {
     "main":
     {
-      "type": "wishlist",
+      "type": "main-wishlist",
       "settings": {}
     }
   },

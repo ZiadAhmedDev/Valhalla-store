@@ -35,19 +35,20 @@
       assign ratio = 1
     endif
   -%}
-  <div class="card-wrapper product-card-wrapper underline-links-hover">
+  <div class="card-wrapper product-card-wrapper underline-links-hover" style="position: relative;">
     <div
       class="
-        card card--{{ settings.card_style }}
-        {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
-        {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
+          card card--{{ settings.card_style }}
+          {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
+          {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
         {% if image_shape and image_shape != 'default' %} card--shape{% endif %}
-        {% if extend_height %} card--extend-height{% endif %}
-        {% if card_product.featured_media == nil and settings.card_style == 'card' %} ratio{% endif %}
+          {% if extend_height %} card--extend-height{% endif %}
+          {% if card_product.featured_media == nil and settings.card_style == 'card' %} ratio{% endif %}
         {% if horizontal_class %} card--horizontal{% endif %}
       "
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
+      {%- render 'wishlist-button', product: card_product -%}
       <div
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
@@ -343,18 +344,12 @@
           {%- endif -%}
         </div>
       </div>
-      <button
-        class="button button--secondary wishlist-button"
-        id="wishlist-button"
-        data-productId="{{ card_product.id }}"
-        onclick="addToWishlist('{{ card_product.id }}')"
-      >
-        Add to wishlist
-      </button>
     </div>
   </div>
 {%- else -%}
-  <div class="card-wrapper product-card-wrapper underline-links-hover">
+  <div class="card-wrapper product-card-wrapper underline-links-hover" style="position: relative;">
+    {%- render 'wishlist-button', product: card_product -%}
+
     <div
       class="
         card card--{{ settings.card_style }}
@@ -396,22 +391,3 @@
     </div>
   </div>
 {%- endif -%}
-
-<script>
-  function addToWishlist(productId) {
-    // Retrieve the existing wishlist from local storage
-    let wishlist = localStorage.getItem('wishlist');
-
-    // Convert the wishlist from a string to an array (if it exists)
-    wishlist = wishlist ? JSON.parse(wishlist) : [];
-
-    // Check if the product ID already exists in the wishlist
-    if (!wishlist.includes(productId)) {
-      // Add the product ID to the wishlist
-      wishlist.push(productId);
-
-      // Save the updated wishlist back to local storage
-      localStorage.setItem('wishlist', JSON.stringify(wishlist));
-    }
-  }
-</script>

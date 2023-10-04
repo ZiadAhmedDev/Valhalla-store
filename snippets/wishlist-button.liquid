@@ -1,0 +1,26 @@
+{%- assign productId = product.selected_or_first_available_variant.id -%}
+{%- assign productTitle = product.title | remove: "'" | escape | replace: ' ', '-' | downcase -%}
+
+<style>
+  .wishlist-button {
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 37px;
+    z-index: 2;
+    padding: 10px;
+  }
+</style>
+
+<button
+  class=" wishlist-button"
+  id="wishlist-button"
+  data-productId="{{ productId }}"
+  data-productTitle="{{ productTitle }}"
+  onclick="addToWishlist('{{ productTitle }}'); changeSvgColor(this);"
+>
+  <span class="icon-wrap">{% render 'icon-wishlist' %}</span>
+</button>

@@ -34,7 +34,7 @@
         role="list"
       >
         {% for recommendation in recommendations.products %}
-          <li class="grid__item">
+          <li class="grid__item" style="position: relative;">
             {% render 'card-product',
               card_product: recommendation,
               media_aspect_ratio: section.settings.image_ratio,
