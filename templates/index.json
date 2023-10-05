@@ -83,65 +83,6 @@
         "padding_bottom": 28
       }
     },
-    "6d14b2c1-4790-4ecf-9e9f-42009005e331": {
-      "type": "multirow",
-      "blocks": {
-        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/scotch-and-soda-mens-long-sleeve-jacket_2.png",
-            "caption": "",
-            "heading": "Casual",
-            "text": "<p>Discover the World of Casual Clothes: A Comprehensive Guide Explore the vast realm of casual fashion with our comprehensive guide.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/casual"
-          }
-        },
-        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/only-and-sons-mens-long-sleeve-coat_1.png",
-            "caption": "",
-            "heading": "Sweater",
-            "text": "<p>Elevate Your Style with High-Quality Sweaters Experience elevated style with our collection of high-quality sweaters.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/sweaters"
-          }
-        },
-        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/jack-wolfskin-mens-gecko-fleece-pullover_3.png",
-            "caption": "",
-            "heading": "T-shirts",
-            "text": "<p>Discover the Perfect T-Shirt for Every Occasion Explore our wide range of expertly curated T-Shirts for all occasions.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/t-shirts"
-          }
-        }
-      },
-      "block_order": [
-        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-1",
-        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-2",
-        "template--21295201747255__6d14b2c1-4790-4ecf-9e9f-42009005e331-row-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_height": "small",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "primary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "inverse",
-        "row_color_scheme": "accent-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "efb4dcfb-f9fb-4263-88cb-8333bf599204": {
       "type": "video",
       "custom_css": [
@@ -259,60 +200,6 @@
         "padding_bottom": 36
       }
     },
-    "f96e0404-3a94-4e22-8360-84a3656f2d0a": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-1",
-        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-2",
-        "template--21295201747255__f96e0404-3a94-4e22-8360-84a3656f2d0a-column-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Instagram<strong> Ambassador<\/strong>",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "inverse",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 72
-      }
-    },
     "149cd5fa-993e-40e1-8554-5774044cab7e": {
       "type": "flash-sales",
       "settings": {
@@ -329,14 +216,14 @@
         "section_subtitle": "Weekly big sale !",
         "section_title": "The Sale End in",
         "deal_banner_date": "17",
-        "deal_banner_month": "nov",
+        "deal_banner_month": "oct",
         "deal_banner_year": "2023",
         "deal_banner_day_title": "Day",
         "deal_banner_hour_title": "Hrs",
         "deal_banner_minute_title": "Min",
         "deal_banner_second_title": "Sec",
         "section_btn_text": "Order now",
-        "section_btn_url": ""
+        "section_btn_url": "shopify:\/\/collections\/hot-sale"
       }
     },
     "88701003-d05b-4bc2-8695-d33602b350fd": {
@@ -487,11 +374,9 @@
   "order": [
     "image_banner",
     "fa9f171b-5d84-42de-bfff-eae4a5e00645",
-    "6d14b2c1-4790-4ecf-9e9f-42009005e331",
     "efb4dcfb-f9fb-4263-88cb-8333bf599204",
     "4b04927e-a945-42f5-9a66-0229ccee83b4",
     "featured_collection",
-    "f96e0404-3a94-4e22-8360-84a3656f2d0a",
     "149cd5fa-993e-40e1-8554-5774044cab7e",
     "88701003-d05b-4bc2-8695-d33602b350fd",
     "d5184493-35e2-411c-acb3-4343674a8877",
