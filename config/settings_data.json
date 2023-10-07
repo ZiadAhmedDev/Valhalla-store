@@ -163,6 +163,18 @@
             "settings": {
               "selectedProduct": "scotch-and-soda-mens-long-sleeve-jacket"
             }
+          },
+          "4c6ab5a2-2aec-4850-afe8-a4f54746394e": {
+            "type": "sales-product-popup",
+            "settings": {
+              "selectedProduct": "esprit-mens-long-sleeve-jacket"
+            }
+          },
+          "9d07148e-c2b0-4b16-a9e7-b67015a4da1f": {
+            "type": "sales-product-popup",
+            "settings": {
+              "selectedProduct": "jack-wolfskin-mens-gecko-fleece-pullover"
+            }
           }
         },
         "block_order": [
@@ -170,7 +182,9 @@
           "7b470eed-8a24-4713-84ad-056cc8799879",
           "91fee94c-58db-408a-a015-f6d999030984",
           "0f437b49-885b-4bad-a018-c7a74378bc05",
-          "a7b6e9a4-6382-475d-ad1f-1d8d2cab023c"
+          "a7b6e9a4-6382-475d-ad1f-1d8d2cab023c",
+          "4c6ab5a2-2aec-4850-afe8-a4f54746394e",
+          "9d07148e-c2b0-4b16-a9e7-b67015a4da1f"
         ],
         "settings": {
           "maximumPopNotification": 10,
