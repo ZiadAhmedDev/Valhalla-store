@@ -1,1 +1,182 @@
-{"sections":{"a15d859e-00fc-485d-a9a5-caf0479c2023":{"type":"video","custom_css":["img {max-height: rem;}","#myVideo::-webkit-media-controls {display: none;}","#myVideo::-webkit-media-controls-enclosure {display: none !important;}","#myVideo::-webkit-media-controls-panel {display: none !important;}","#myVideo::media-controls {display: none;}"],"settings":{"heading":"","heading_size":"h2","enable_video_looping":true,"video":"{{ metaobject.media.value }}","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","description":"Print on demand","full_width":true,"color_scheme":"","padding_top":36,"padding_bottom":0,"show_controls":true}},"75def78f-7941-4246-9580-d0d33a785bb6":{"type":"rich-text","blocks":{"template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-heading-1":{"type":"heading","settings":{"heading":"{{ metaobject.title.value }}","heading_size":"h1"}},"template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-text-1":{"type":"text","settings":{"text":"{{ metaobject.description | metafield_tag }}"}},"template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-button-1":{"type":"button","source":"{{ metaobject }}","settings":{"button_label":"{{ metaobject.title.value }}","button_link":"{{ metaobject.order_one.value }}","button_style_secondary":true,"button_label_2":"{{ metaobject.price | metafield_text }}","button_link_2":"{{ metaobject.system.url }}","button_style_secondary_2":false}}},"block_order":["template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-heading-1","template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-text-1","template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-button-1"],"custom_css":["h2 {margin: auto; width: fit-content;}","p {margin-right: auto; display: block; width: fit-content; text-align: left;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"8b5bb7a6-6f08-4296-a0a8-c2e00853ed15":{"type":"image-with-text","blocks":{"template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-heading-1":{"type":"heading","source":"{{ metaobject }}","settings":{"heading":"{{ metaobject.title.value }}","heading_size":"h1"}},"template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-text-1":{"type":"text","settings":{"text":"{{ metaobject.description | metafield_tag }}","text_style":"subtitle"}},"template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-button-1":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-heading-1","template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-text-1","template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-button-1"],"disabled":true,"custom_css":[],"settings":{"image":"{{ metaobject.media.value }}","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3":{"type":"collapsible-content","blocks":{"template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-1":{"type":"collapsible_row","settings":{"heading":"Why Choose Valhalla for Print-On-Demand?","icon":"check_mark","row_content":"<ol><li><strong>Limitless Possibilities:<\/strong> Express yourself like never before with an extensive range of customizable products. From apparel and accessories to home decor and promotional items, you can personalize it all.<\/li><li><strong>High-Quality Printing:<\/strong> We take pride in delivering exceptional print quality. Our state-of-the-art printing technology ensures vibrant colors, sharp details, and lasting durability.<\/li><li><strong>No Minimum Orders:<\/strong> Whether you need a single custom item or a bulk order, we cater to your requirements. There are no minimum order quantities, making it perfect for businesses and individuals alike.<\/li><li><strong>Quick Turnaround:<\/strong> We understand that time is of the essence. Our streamlined production process ensures swift turnaround times, so you get your custom creations when you need them.<\/li><li><strong>Eco-Friendly Practices:<\/strong> We care about the environment. Our commitment to sustainability includes eco-friendly printing methods and responsible sourcing of materials.<\/li><\/ol>","page":""}},"template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-2":{"type":"collapsible_row","settings":{"heading":"How It works?","icon":"check_mark","row_content":"<ol><li><strong>Choose Your Product:<\/strong> Explore our diverse range of products, from t-shirts and mugs to posters and phone cases. Find the perfect canvas for your ideas.<\/li><li><strong>Design Your Masterpiece:<\/strong> Unleash your creativity! Use our user-friendly design tool to upload your artwork, add text, and customize every detail until it's just right.<\/li><li><strong>Place Your Order:<\/strong> Review your design, select your preferred quantity, and place your order with confidence.<\/li><li><strong>Sit Back and Relax:<\/strong> Let us handle the rest. Our team of skilled professionals will bring your vision to life with precision and care.<\/li><li><strong>Delivery to Your Door:<\/strong> Your personalized products will be delivered to your doorstep, ready to impress or cherish.<\/li><\/ol><p>Discover the joy of personalized products with Valhalla. Join our community of satisfied customers who have turned their ideas into tangible works of art.<\/p>","page":""}},"template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-3":{"type":"collapsible_row","settings":{"heading":"Start Creating Today!","icon":"check_mark","row_content":"<p>Begin your creative journey with Valhalla and experience the magic of print-on-demand. Whether you're an artist, entrepreneur, or someone with a unique vision, we're here to make it happen. Get started now and make every moment memorable!<\/p>","page":""}}},"block_order":["template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-1","template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-2","template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-3"],"settings":{"caption":"","heading":"<strong>FAQs<\/strong>","heading_size":"h1","heading_alignment":"center","layout":"section","color_scheme":"","container_color_scheme":"","open_first_collapsible_row":true,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36}}},"order":["a15d859e-00fc-485d-a9a5-caf0479c2023","75def78f-7941-4246-9580-d0d33a785bb6","8b5bb7a6-6f08-4296-a0a8-c2e00853ed15","91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3"]}
+{
+  "sections": {
+    "a15d859e-00fc-485d-a9a5-caf0479c2023": {
+      "type": "video",
+      "custom_css": [
+        "img {max-height: rem;}",
+        "#myVideo::-webkit-media-controls {display: none;}",
+        "#myVideo::-webkit-media-controls-enclosure {display: none !important;}",
+        "#myVideo::-webkit-media-controls-panel {display: none !important;}",
+        "#myVideo::media-controls {display: none;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "{{ metaobject.media.value }}",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "Print on demand",
+        "full_width": true,
+        "color_scheme": "accent-1",
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "show_controls": true
+      }
+    },
+    "75def78f-7941-4246-9580-d0d33a785bb6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.description | metafield_tag }}"
+          }
+        },
+        "template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-button-1": {
+          "type": "button",
+          "source": "{{ metaobject }}",
+          "settings": {
+            "button_label": "{{ metaobject.title.value }}",
+            "button_link": "{{ metaobject.order_one.value }}",
+            "button_style_secondary": true,
+            "button_label_2": "{{ metaobject.price | metafield_text }}",
+            "button_link_2": "{{ metaobject.system.url }}",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-heading-1",
+        "template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-text-1",
+        "template--21316586078519__75def78f-7941-4246-9580-d0d33a785bb6-button-1"
+      ],
+      "custom_css": [
+        "h2 {margin: auto; width: fit-content;}",
+        "p {margin-right: auto; display: block; width: fit-content; text-align: left;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "8b5bb7a6-6f08-4296-a0a8-c2e00853ed15": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-heading-1": {
+          "type": "heading",
+          "source": "{{ metaobject }}",
+          "settings": {
+            "heading": "{{ metaobject.title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.description | metafield_tag }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-heading-1",
+        "template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-text-1",
+        "template--21316586078519__8b5bb7a6-6f08-4296-a0a8-c2e00853ed15-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "{{ metaobject.media.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why Choose Valhalla for Print-On-Demand?",
+            "icon": "check_mark",
+            "row_content": "<ol><li><strong>Limitless Possibilities:<\/strong> Express yourself like never before with an extensive range of customizable products. From apparel and accessories to home decor and promotional items, you can personalize it all.<\/li><li><strong>High-Quality Printing:<\/strong> We take pride in delivering exceptional print quality. Our state-of-the-art printing technology ensures vibrant colors, sharp details, and lasting durability.<\/li><li><strong>No Minimum Orders:<\/strong> Whether you need a single custom item or a bulk order, we cater to your requirements. There are no minimum order quantities, making it perfect for businesses and individuals alike.<\/li><li><strong>Quick Turnaround:<\/strong> We understand that time is of the essence. Our streamlined production process ensures swift turnaround times, so you get your custom creations when you need them.<\/li><li><strong>Eco-Friendly Practices:<\/strong> We care about the environment. Our commitment to sustainability includes eco-friendly printing methods and responsible sourcing of materials.<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How It works?",
+            "icon": "check_mark",
+            "row_content": "<ol><li><strong>Choose Your Product:<\/strong> Explore our diverse range of products, from t-shirts and mugs to posters and phone cases. Find the perfect canvas for your ideas.<\/li><li><strong>Design Your Masterpiece:<\/strong> Unleash your creativity! Use our user-friendly design tool to upload your artwork, add text, and customize every detail until it's just right.<\/li><li><strong>Place Your Order:<\/strong> Review your design, select your preferred quantity, and place your order with confidence.<\/li><li><strong>Sit Back and Relax:<\/strong> Let us handle the rest. Our team of skilled professionals will bring your vision to life with precision and care.<\/li><li><strong>Delivery to Your Door:<\/strong> Your personalized products will be delivered to your doorstep, ready to impress or cherish.<\/li><\/ol><p>Discover the joy of personalized products with Valhalla. Join our community of satisfied customers who have turned their ideas into tangible works of art.<\/p>",
+            "page": ""
+          }
+        },
+        "template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Start Creating Today!",
+            "icon": "check_mark",
+            "row_content": "<p>Begin your creative journey with Valhalla and experience the magic of print-on-demand. Whether you're an artist, entrepreneur, or someone with a unique vision, we're here to make it happen. Get started now and make every moment memorable!<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-1",
+        "template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-2",
+        "template--21316586078519__91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3-collapsible_row-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "<strong>FAQs<\/strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "accent-1",
+        "container_color_scheme": "inverse",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "a15d859e-00fc-485d-a9a5-caf0479c2023",
+    "75def78f-7941-4246-9580-d0d33a785bb6",
+    "8b5bb7a6-6f08-4296-a0a8-c2e00853ed15",
+    "91c3e3a2-d2e7-4abc-88eb-936a0d5d78e3"
+  ]
+}
