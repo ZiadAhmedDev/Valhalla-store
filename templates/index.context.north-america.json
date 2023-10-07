@@ -1,0 +1,8 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "north-america"
+  },
+  "sections": {
+  }
+}
