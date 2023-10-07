@@ -201,9 +201,15 @@
           "block_alignement": "center"
         }
       },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "15912215999290715800": {
         "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-modal\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "test_mode": true,
           "modal_closeButton": true,
@@ -228,12 +234,6 @@
           "style_colors_cta_text": "#ffffff",
           "style_colors_cta_button": "#000000",
           "style_colors_text": "#000000"
-        }
-      },
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
         }
       }
     },
