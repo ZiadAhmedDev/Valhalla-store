@@ -115,7 +115,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_drawer_collection": "men-clothes",
+    "cart_drawer_collection": "",
     "upSelling_product": "jack-wolfskin-mens-gecko-fleece-pullover",
     "color_scheme": "inverse",
     "sections": {
